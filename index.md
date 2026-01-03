@@ -131,7 +131,7 @@ show_posts: false
   object-fit: contain;
   background: rgba(255,255,255,0.03);
   border: none;
-  padding: 10px;
+  padding: 0;
 }
 
   
@@ -151,7 +151,7 @@ show_posts: false
   transform: translateX(-50%);
   background: transparent;
   color: #e6e8eb;
-  padding: 4px 10px;
+  padding: 0;
   font-size: 12px;
   border-radius: 0;
   white-space: nowrap;
