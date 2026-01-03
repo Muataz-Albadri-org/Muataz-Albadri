@@ -85,66 +85,145 @@ show_posts: false
       </div>
 
       <div class="logo-item">
-        <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python">
+        <img src="{{ '/assets/logos/python.svg' | relative_url }}" 
+        alt=""
+        style="
+          width:200px;
+          height:200px;
+          border-radius:50%;
+          object-fit:cover;
+          border:3px solid #2C3E50;
+        ">
       </div>
 
       <div class="logo-item">
-        <img src="/assets/logos/ai.svg" alt="AI">
-        <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI">
+        <img src="{{ '/assets/logos/ai.svg' | relative_url }}" 
+        alt=""
+        style="
+          width:200px;
+          height:200px;
+          border-radius:50%;
+          object-fit:cover;
+          border:3px solid #2C3E50;
+        ">
 
         
       </div>
 
       <div class="logo-item">
-        <img src="/assets/logos/recap.svg" alt="Autodesk ReCap">
-        <img src="{{ '/assets/logos/recap.svg' | relative_url }}" alt="Autodesk ReCap">
+        <img src="{{ '/assets/logos/recap.svg' | relative_url }}" 
+        alt=""
+        style="
+          width:200px;
+          height:200px;
+          border-radius:50%;
+          object-fit:cover;
+          border:3px solid #2C3E50;
+        ">
 
       </div>
 
       <div class="logo-item">
-        <img src="/assets/logos/revit.svg" alt="Autodesk Revit">
-        <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Autodesk Revit">
+        <img src="{{ '/assets/logos/revit.svg' | relative_url }}" 
+        alt=""
+        style="
+          width:200px;
+          height:200px;
+          border-radius:50%;
+          object-fit:cover;
+          border:3px solid #2C3E50;
+        ">
 
       </div>
 
       <div class="logo-item">
-        <img src="/assets/logos/autocad.svg" alt="AutoCAD">
-        <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD">
+        <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" 
+        alt=""
+              style="
+          width:200px;
+          height:200px;
+          border-radius:50%;
+          object-fit:cover;
+          border:3px solid #2C3E50;
+        ">
 
       </div>
 
       <div class="logo-item">
-        <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM">
+        <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" 
+        alt=""
+        style="
+          width:200px;
+          height:200px;
+          border-radius:50%;
+          object-fit:cover;
+          border:3px solid #2C3E50;
+        ">
 
       </div>
 
       <div class="logo-item">
-        <img src="/assets/logos/ifc.svg" alt="IFC">
-        <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC">
+        <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" 
+        alt=""
+              style="
+          width:200px;
+          height:200px;
+          border-radius:50%;
+          object-fit:cover;
+          border:3px solid #2C3E50;
+        ">
 
       </div>
 
       <!-- Duplicate for seamless loop -->
       <div class="logo-item">
-        <img src="/assets/logos/laser-scanner.svg" alt="">
-        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" alt="">
+        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" 
+        alt=""
+        style="
+          width:200px;
+          height:200px;
+          border-radius:50%;
+          object-fit:cover;
+          border:3px solid #2C3E50;
+        ">
 
         
       </div>
       <div class="logo-item">
-        <img src="/assets/logos/python.svg" alt="">
-        <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="">
+        <img src="{{ '/assets/logos/python.svg' | relative_url }}" 
+        alt=""
+        style="
+          width:200px;
+          height:200px;
+          border-radius:50%;
+          object-fit:cover;
+          border:3px solid #2C3E50;
+        ">
 
       </div>
       <div class="logo-item">
-        <img src="/assets/logos/ai.svg" alt="">
-        <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="">
+        <img src="{{ '/assets/logos/ai.svg' | relative_url }}" 
+        alt=""
+        style="
+          width:200px;
+          height:200px;
+          border-radius:50%;
+          object-fit:cover;
+          border:3px solid #2C3E50;
+        ">
 
         
       </div>
       <div class="logo-item">
-        <img src="/assets/logos/recap.svg" alt="">
-        <img src="{{ '/assets/logos/recap.svg' | relative_url }}" alt="">
+        <img src="{{ '/assets/logos/recap.svg' | relative_url }}" 
+        alt=""
+              style="
+          width:200px;
+          height:200px;
+          border-radius:50%;
+          object-fit:cover;
+          border:3px solid #2C3E50;
+        ">
 
       </div>
 
