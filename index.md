@@ -75,9 +75,9 @@ show_posts: false
         <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}"
               alt=""
               style="
-          width:200px;
-          height:200px;
-          border-radius:50%;
+          width:100px;
+          height:100px;
+          border-radius:100%;
           object-fit:cover;
           border:3px solid #2C3E50;
         ">
@@ -88,9 +88,9 @@ show_posts: false
         <img src="{{ '/assets/logos/python.svg' | relative_url }}" 
         alt=""
         style="
-          width:200px;
-          height:200px;
-          border-radius:50%;
+          width:100px;
+          height:100px;
+          border-radius:100%;
           object-fit:cover;
           border:3px solid #2C3E50;
         ">
@@ -100,9 +100,9 @@ show_posts: false
         <img src="{{ '/assets/logos/ai.svg' | relative_url }}" 
         alt=""
         style="
-          width:200px;
-          height:200px;
-          border-radius:50%;
+          width:100px;
+          height:100px;
+          border-radius:100%;
           object-fit:cover;
           border:3px solid #2C3E50;
         ">
@@ -114,9 +114,9 @@ show_posts: false
         <img src="{{ '/assets/logos/recap.svg' | relative_url }}" 
         alt=""
         style="
-          width:200px;
-          height:200px;
-          border-radius:50%;
+          width:100px;
+          height:100px;
+          border-radius:100%;
           object-fit:cover;
           border:3px solid #2C3E50;
         ">
@@ -127,9 +127,9 @@ show_posts: false
         <img src="{{ '/assets/logos/revit.svg' | relative_url }}" 
         alt=""
         style="
-          width:200px;
-          height:200px;
-          border-radius:50%;
+          width:100px;
+          height:100px;
+          border-radius:100%;
           object-fit:cover;
           border:3px solid #2C3E50;
         ">
@@ -139,10 +139,10 @@ show_posts: false
       <div class="logo-item">
         <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" 
         alt=""
-              style="
-          width:200px;
-          height:200px;
-          border-radius:50%;
+          style="
+          width:100px;
+          height:100px;
+          border-radius:100%;
           object-fit:cover;
           border:3px solid #2C3E50;
         ">
@@ -153,9 +153,9 @@ show_posts: false
         <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" 
         alt=""
         style="
-          width:200px;
-          height:200px;
-          border-radius:50%;
+          width:100px;
+          height:100px;
+          border-radius:100%;
           object-fit:cover;
           border:3px solid #2C3E50;
         ">
@@ -165,10 +165,10 @@ show_posts: false
       <div class="logo-item">
         <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" 
         alt=""
-              style="
-          width:200px;
-          height:200px;
-          border-radius:50%;
+          style="
+          width:100px;
+          height:100px;
+          border-radius:100%;
           object-fit:cover;
           border:3px solid #2C3E50;
         ">
@@ -180,9 +180,9 @@ show_posts: false
         <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" 
         alt=""
         style="
-          width:200px;
-          height:200px;
-          border-radius:50%;
+          width:100px;
+          height:100px;
+          border-radius:100%;
           object-fit:cover;
           border:3px solid #2C3E50;
         ">
@@ -193,9 +193,9 @@ show_posts: false
         <img src="{{ '/assets/logos/python.svg' | relative_url }}" 
         alt=""
         style="
-          width:200px;
-          height:200px;
-          border-radius:50%;
+          width:100px;
+          height:100px;
+          border-radius:100%;
           object-fit:cover;
           border:3px solid #2C3E50;
         ">
@@ -205,9 +205,9 @@ show_posts: false
         <img src="{{ '/assets/logos/ai.svg' | relative_url }}" 
         alt=""
         style="
-          width:200px;
-          height:200px;
-          border-radius:50%;
+          width:100px;
+          height:100px;
+          border-radius:100%;
           object-fit:cover;
           border:3px solid #2C3E50;
         ">
@@ -218,9 +218,9 @@ show_posts: false
         <img src="{{ '/assets/logos/recap.svg' | relative_url }}" 
         alt=""
               style="
-          width:200px;
-          height:200px;
-          border-radius:50%;
+          width:100px;
+          height:100px;
+          border-radius:100%;
           object-fit:cover;
           border:3px solid #2C3E50;
         ">
