@@ -92,12 +92,12 @@ show_posts: false
 
 .logo-scroll-wrapper::before {
   left: 0;
-  background: linear-gradient(to right, #0b0d12 0%, transparent 100%);
+  background: transparent;
 }
 
 .logo-scroll-wrapper::after {
   right: 0;
-  background: linear-gradient(to left, #0b0d12 0%, transparent 100%);
+  background: transparent;
 }
 
 /* -------------------------
@@ -202,7 +202,7 @@ show_posts: false
 }
 </style>
 
-<section style="margin-bottom:60px;">
+<section style="margin-bottom:30px;">
   <h2>Technology Stack</h2>
 
   <div class="logo-scroll-wrapper">
