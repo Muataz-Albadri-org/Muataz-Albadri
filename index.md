@@ -72,7 +72,15 @@ show_posts: false
 
       <!-- Logos -->
       <div class="logo-item">
-        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" alt="Laser Scanners">
+        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}"
+              alt=""
+              style="
+          width:200px;
+          height:200px;
+          border-radius:50%;
+          object-fit:cover;
+          border:3px solid #2C3E50;
+        ">
 
       </div>
 
