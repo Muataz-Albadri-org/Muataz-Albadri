@@ -125,12 +125,12 @@ show_posts: false
 }
 
 .logo-item img {
-  width: 96px;
-  height: 96px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 2px solid #2c3e50;
   background: transparent;
-  padding: 12px;
+  padding: 5px;
   filter: grayscale(100%);
   transition: transform 0.3s ease, filter 0.3s ease;
 }
@@ -186,8 +186,8 @@ show_posts: false
   }
 
   .logo-item img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   }
 }
 
@@ -202,7 +202,7 @@ show_posts: false
 }
 </style>
 
-<section style="margin-bottom:30px;">
+<section style="margin-bottom:10px;">
   <h2>Technology Stack</h2>
 
   <div class="logo-scroll-wrapper">
