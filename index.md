@@ -74,7 +74,7 @@ show_posts: false
   width: 100%;
   overflow: hidden;
   padding: 28px 0;
-  background: #0b0d12;
+  background: transparent;
   border-radius: 10px;
 }
 
@@ -129,7 +129,7 @@ show_posts: false
   height: 96px;
   border-radius: 50%;
   border: 2px solid #2c3e50;
-  background: #141821;
+  background: transparent;
   padding: 12px;
   filter: grayscale(100%);
   transition: transform 0.3s ease, filter 0.3s ease;
@@ -149,7 +149,7 @@ show_posts: false
   bottom: -36px;
   left: 50%;
   transform: translateX(-50%);
-  background: #141821;
+  background: transparent;
   color: #e6e8eb;
   padding: 4px 10px;
   font-size: 12px;
