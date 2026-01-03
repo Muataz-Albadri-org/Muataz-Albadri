@@ -65,10 +65,6 @@ show_posts: false
      TECHNOLOGY STACK
 ========================== -->
 
-<!-- =========================
-     TECHNOLOGY STACK
-========================== -->
-
 <style>
 /* -------------------------
    Base container (dark)
@@ -112,7 +108,7 @@ show_posts: false
   align-items: center;
   gap: 48px;
   width: max-content;
-  animation: logo-scroll 45s linear infinite;
+  animation: logo-scroll 25s linear infinite;
 }
 
 /* Pause on hover */
@@ -185,13 +181,13 @@ show_posts: false
 -------------------------- */
 @media (max-width: 768px) {
   .logo-scroll-track {
-    animation-duration: 70s;
+    animation-duration: 40s;
     gap: 32px;
   }
 
   .logo-item img {
-    width: 72px;
-    height: 72px;
+    width: 100px;
+    height: 100px;
   }
 }
 
