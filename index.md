@@ -241,15 +241,36 @@ show_posts: false
       </div>
 
       <!-- Duplicate for seamless loop -->
-      <div class="logo-item" data-label="Figure">
-        <img src="{{ '/assets/logos/Figure 7.svg' | relative_url }}" alt="Figure">
-      </div>
       <div class="logo-item" data-label="Laser Scanners">
-        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" alt="">
+        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" alt="Laser Scanners">
       </div>
 
       <div class="logo-item" data-label="Python">
-        <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="">
+        <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python">
+      </div>
+      
+      <div class="logo-item" data-label="Figure">
+        <img src="{{ '/assets/logos/Figure 7.svg' | relative_url }}" alt="Figure">
+      </div>
+      
+      <div class="logo-item" data-label="Artificial Intelligence">
+        <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI">
+      </div>
+
+      <div class="logo-item" data-label="Autodesk Revit">
+        <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Revit">
+      </div>
+
+      <div class="logo-item" data-label="AutoCAD">
+        <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD">
+      </div>
+
+      <div class="logo-item" data-label="BlenderBIM">
+        <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM">
+      </div>
+
+      <div class="logo-item" data-label="IFC / buildingSMART">
+        <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC">
       </div>
 
     </div>
