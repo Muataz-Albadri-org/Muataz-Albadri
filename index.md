@@ -28,7 +28,7 @@ show_posts: false
         style="
           width:200px;
           height:200px;
-          border-radius:50%;
+          border-radius:0;
           object-fit:cover;
           border:3px solid #2C3E50;
         "
@@ -75,7 +75,7 @@ show_posts: false
   overflow: hidden;
   padding: 28px 0;
   background: transparent;
-  border-radius: 10px;
+  border-radius: 0;
 }
 
 /* Fade edges */
@@ -125,16 +125,16 @@ show_posts: false
 }
 
 .logo-item img {
-  width: 150px;
+  width: auto;
   height: 150px;
-  border-radius: 50%;
-  border: 2px solid #2c3e50;
-  background: transparent;
-  padding: 5px;
-  filter: grayscale(100%);
-  transition: transform 0.3s ease, filter 0.3s ease;
+  border-radius: 6px;
+  object-fit: contain;
+  background: rgba(255,255,255,0.03);
+  border: none;
+  padding: 10px;
 }
 
+  
 .logo-item:hover img {
   transform: scale(1.05);
   filter: grayscale(0%);
@@ -153,7 +153,7 @@ show_posts: false
   color: #e6e8eb;
   padding: 4px 10px;
   font-size: 12px;
-  border-radius: 4px;
+  border-radius: 0;
   white-space: nowrap;
   opacity: 0;
   pointer-events: none;
