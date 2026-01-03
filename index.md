@@ -182,7 +182,7 @@ show_posts: false
 @media (max-width: 768px) {
   .logo-scroll-track {
     animation-duration: 40s;
-    gap: 32px;
+    gap: 10px;
   }
 
   .logo-item img {
@@ -208,10 +208,6 @@ show_posts: false
   <div class="logo-scroll-wrapper">
     <div class="logo-scroll-track">
 
-      <div class="logo-item" data-label="Figure">
-        <img src="{{ '/assets/logos/Figure 7.svg' | relative_url }}" alt="Figure">
-      </div>
-
       <div class="logo-item" data-label="Laser Scanners">
         <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" alt="Laser Scanners">
       </div>
@@ -219,7 +215,11 @@ show_posts: false
       <div class="logo-item" data-label="Python">
         <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python">
       </div>
-
+      
+      <div class="logo-item" data-label="Figure">
+        <img src="{{ '/assets/logos/Figure 7.svg' | relative_url }}" alt="Figure">
+      </div>
+      
       <div class="logo-item" data-label="Artificial Intelligence">
         <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI">
       </div>
