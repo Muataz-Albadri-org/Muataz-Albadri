@@ -65,35 +65,142 @@ show_posts: false
      TECHNOLOGY STACK
 ========================== -->
 
-<style>
-/* --- Local styles: applied only on this page --- */
+<!-- =========================
+     TECHNOLOGY STACK
+========================== -->
 
+<style>
+/* -------------------------
+   Base container (dark)
+-------------------------- */
 .logo-scroll-wrapper {
+  position: relative;
   width: 100%;
   overflow: hidden;
-  padding: 20px 0;
-  background: #f7f8fa;
-  border-radius: 8px;
+  padding: 28px 0;
+  background: #0b0d12;
+  border-radius: 10px;
 }
 
+/* Fade edges */
+.logo-scroll-wrapper::before,
+.logo-scroll-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.logo-scroll-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, #0b0d12 0%, transparent 100%);
+}
+
+.logo-scroll-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, #0b0d12 0%, transparent 100%);
+}
+
+/* -------------------------
+   Scrolling track
+-------------------------- */
 .logo-scroll-track {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 48px;
   width: max-content;
-  animation: logo-scroll-right 30s linear infinite;
+  animation: logo-scroll 45s linear infinite;
 }
 
+/* Pause on hover */
+.logo-scroll-wrapper:hover .logo-scroll-track {
+  animation-play-state: paused;
+}
+
+/* -------------------------
+   Logo items
+-------------------------- */
 .logo-item {
   flex: 0 0 auto;
+  position: relative;
 }
 
-/* Left → Right scrolling animation */
-@keyframes logo-scroll-right {
+.logo-item img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 2px solid #2c3e50;
+  background: #141821;
+  padding: 12px;
+  filter: grayscale(100%);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo-item:hover img {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+}
+
+/* -------------------------
+   Tooltip
+-------------------------- */
+.logo-item::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #141821;
+  color: #e6e8eb;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.logo-item:hover::after {
+  opacity: 1;
+}
+
+/* -------------------------
+   Animation
+-------------------------- */
+@keyframes logo-scroll {
   from {
     transform: translateX(-50%);
   }
   to {
+    transform: translateX(0);
+  }
+}
+
+/* -------------------------
+   Mobile behavior
+-------------------------- */
+@media (max-width: 768px) {
+  .logo-scroll-track {
+    animation-duration: 70s;
+    gap: 32px;
+  }
+
+  .logo-item img {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+/* -------------------------
+   Accessibility: reduced motion
+-------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .logo-scroll-track {
+    animation: none;
     transform: translateX(0);
   }
 }
@@ -105,66 +212,45 @@ show_posts: false
   <div class="logo-scroll-wrapper">
     <div class="logo-scroll-track">
 
-      <!-- Logos -->
-      <div class="logo-item">
-        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}"
-             alt="Laser Scanner"
-             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
+      <div class="logo-item" data-label="Laser Scanners">
+        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" alt="Laser Scanners">
       </div>
 
-      <div class="logo-item">
-        <img src="{{ '/assets/logos/python.svg' | relative_url }}"
-             alt="Python"
-             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
+      <div class="logo-item" data-label="Python">
+        <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python">
       </div>
 
-      <div class="logo-item">
-        <img src="{{ '/assets/logos/ai.svg' | relative_url }}"
-             alt="AI"
-             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
+      <div class="logo-item" data-label="Artificial Intelligence">
+        <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI">
       </div>
 
-      <div class="logo-item">
-        <img src="{{ '/assets/logos/recap.svg' | relative_url }}"
-             alt="ReCap"
-             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
+      <div class="logo-item" data-label="Autodesk ReCap">
+        <img src="{{ '/assets/logos/recap.svg' | relative_url }}" alt="ReCap">
       </div>
 
-      <div class="logo-item">
-        <img src="{{ '/assets/logos/revit.svg' | relative_url }}"
-             alt="Revit"
-             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
+      <div class="logo-item" data-label="Autodesk Revit">
+        <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Revit">
       </div>
 
-      <div class="logo-item">
-        <img src="{{ '/assets/logos/autocad.svg' | relative_url }}"
-             alt="AutoCAD"
-             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
+      <div class="logo-item" data-label="AutoCAD">
+        <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD">
       </div>
 
-      <div class="logo-item">
-        <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}"
-             alt="BlenderBIM"
-             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
+      <div class="logo-item" data-label="BlenderBIM">
+        <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM">
       </div>
 
-      <div class="logo-item">
-        <img src="{{ '/assets/logos/ifc.svg' | relative_url }}"
-             alt="IFC"
-             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
+      <div class="logo-item" data-label="IFC / buildingSMART">
+        <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC">
       </div>
 
-      <!-- Duplicate logos for seamless loop -->
-      <div class="logo-item">
-        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}"
-             alt=""
-             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
+      <!-- Duplicate for seamless loop -->
+      <div class="logo-item" data-label="Laser Scanners">
+        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" alt="">
       </div>
 
-      <div class="logo-item">
-        <img src="{{ '/assets/logos/python.svg' | relative_url }}"
-             alt=""
-             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
+      <div class="logo-item" data-label="Python">
+        <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="">
       </div>
 
     </div>
