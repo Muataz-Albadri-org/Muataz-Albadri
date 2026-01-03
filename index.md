@@ -224,10 +224,6 @@ show_posts: false
         <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI">
       </div>
 
-      <div class="logo-item" data-label="Autodesk ReCap">
-        <img src="{{ '/assets/logos/recap.svg' | relative_url }}" alt="ReCap">
-      </div>
-
       <div class="logo-item" data-label="Autodesk Revit">
         <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Revit">
       </div>
@@ -245,6 +241,9 @@ show_posts: false
       </div>
 
       <!-- Duplicate for seamless loop -->
+      <div class="logo-item" data-label="Figure">
+        <img src="{{ '/assets/logos/Figure 7.svg' | relative_url }}" alt="Figure">
+      </div>
       <div class="logo-item" data-label="Laser Scanners">
         <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" alt="">
       </div>
