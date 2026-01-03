@@ -208,6 +208,10 @@ show_posts: false
   <div class="logo-scroll-wrapper">
     <div class="logo-scroll-track">
 
+      <div class="logo-item" data-label="Figure">
+        <img src="{{ '/assets/logos/Figure 7.svg' | relative_url }}" alt="Figure">
+      </div>
+
       <div class="logo-item" data-label="Laser Scanners">
         <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" alt="Laser Scanners">
       </div>
