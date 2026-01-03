@@ -64,6 +64,41 @@ show_posts: false
 <!-- =========================
      TECHNOLOGY STACK
 ========================== -->
+
+<style>
+/* --- Local styles: applied only on this page --- */
+
+.logo-scroll-wrapper {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+  background: #f7f8fa;
+  border-radius: 8px;
+}
+
+.logo-scroll-track {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: max-content;
+  animation: logo-scroll-right 30s linear infinite;
+}
+
+.logo-item {
+  flex: 0 0 auto;
+}
+
+/* Left → Right scrolling animation */
+@keyframes logo-scroll-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+</style>
+
 <section style="margin-bottom:60px;">
   <h2>Technology Stack</h2>
 
@@ -73,158 +108,63 @@ show_posts: false
       <!-- Logos -->
       <div class="logo-item">
         <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}"
-              alt=""
-              style="
-          width:100px;
-          height:100px;
-          border-radius:100%;
-          object-fit:cover;
-          border:3px solid #2C3E50;
-        ">
-
+             alt="Laser Scanner"
+             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
       </div>
 
       <div class="logo-item">
-        <img src="{{ '/assets/logos/python.svg' | relative_url }}" 
-        alt=""
-        style="
-          width:100px;
-          height:100px;
-          border-radius:100%;
-          object-fit:cover;
-          border:3px solid #2C3E50;
-        ">
+        <img src="{{ '/assets/logos/python.svg' | relative_url }}"
+             alt="Python"
+             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
       </div>
 
       <div class="logo-item">
-        <img src="{{ '/assets/logos/ai.svg' | relative_url }}" 
-        alt=""
-        style="
-          width:100px;
-          height:100px;
-          border-radius:100%;
-          object-fit:cover;
-          border:3px solid #2C3E50;
-        ">
-
-        
+        <img src="{{ '/assets/logos/ai.svg' | relative_url }}"
+             alt="AI"
+             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
       </div>
 
       <div class="logo-item">
-        <img src="{{ '/assets/logos/recap.svg' | relative_url }}" 
-        alt=""
-        style="
-          width:100px;
-          height:100px;
-          border-radius:100%;
-          object-fit:cover;
-          border:3px solid #2C3E50;
-        ">
-
+        <img src="{{ '/assets/logos/recap.svg' | relative_url }}"
+             alt="ReCap"
+             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
       </div>
 
       <div class="logo-item">
-        <img src="{{ '/assets/logos/revit.svg' | relative_url }}" 
-        alt=""
-        style="
-          width:100px;
-          height:100px;
-          border-radius:100%;
-          object-fit:cover;
-          border:3px solid #2C3E50;
-        ">
-
+        <img src="{{ '/assets/logos/revit.svg' | relative_url }}"
+             alt="Revit"
+             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
       </div>
 
       <div class="logo-item">
-        <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" 
-        alt=""
-          style="
-          width:100px;
-          height:100px;
-          border-radius:100%;
-          object-fit:cover;
-          border:3px solid #2C3E50;
-        ">
-
+        <img src="{{ '/assets/logos/autocad.svg' | relative_url }}"
+             alt="AutoCAD"
+             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
       </div>
 
       <div class="logo-item">
-        <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" 
-        alt=""
-        style="
-          width:100px;
-          height:100px;
-          border-radius:100%;
-          object-fit:cover;
-          border:3px solid #2C3E50;
-        ">
-
+        <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}"
+             alt="BlenderBIM"
+             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
       </div>
 
       <div class="logo-item">
-        <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" 
-        alt=""
-          style="
-          width:100px;
-          height:100px;
-          border-radius:100%;
-          object-fit:cover;
-          border:3px solid #2C3E50;
-        ">
-
+        <img src="{{ '/assets/logos/ifc.svg' | relative_url }}"
+             alt="IFC"
+             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
       </div>
 
-      <!-- Duplicate for seamless loop -->
+      <!-- Duplicate logos for seamless loop -->
       <div class="logo-item">
-        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" 
-        alt=""
-        style="
-          width:100px;
-          height:100px;
-          border-radius:100%;
-          object-fit:cover;
-          border:3px solid #2C3E50;
-        ">
-
-        
+        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}"
+             alt=""
+             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
       </div>
-      <div class="logo-item">
-        <img src="{{ '/assets/logos/python.svg' | relative_url }}" 
-        alt=""
-        style="
-          width:100px;
-          height:100px;
-          border-radius:100%;
-          object-fit:cover;
-          border:3px solid #2C3E50;
-        ">
 
-      </div>
       <div class="logo-item">
-        <img src="{{ '/assets/logos/ai.svg' | relative_url }}" 
-        alt=""
-        style="
-          width:100px;
-          height:100px;
-          border-radius:100%;
-          object-fit:cover;
-          border:3px solid #2C3E50;
-        ">
-
-        
-      </div>
-      <div class="logo-item">
-        <img src="{{ '/assets/logos/recap.svg' | relative_url }}" 
-        alt=""
-              style="
-          width:100px;
-          height:100px;
-          border-radius:100%;
-          object-fit:cover;
-          border:3px solid #2C3E50;
-        ">
-
+        <img src="{{ '/assets/logos/python.svg' | relative_url }}"
+             alt=""
+             style="width:100px;height:100px;border-radius:50%;border:3px solid #2C3E50;">
       </div>
 
     </div>
