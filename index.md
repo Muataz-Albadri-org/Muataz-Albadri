@@ -472,7 +472,7 @@ show_posts: false
 }
 
 .logo-item img {
-  width: auto;
+  width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: contain;
