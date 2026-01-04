@@ -549,9 +549,9 @@ show_posts: false
 </style>
 
 <section style="margin-bottom:10px;">
-  <h2>Technology Stack</h2>
+  <!-- <h2>Technology Stack</h2> -->
 
-  <div class="logo-scroll-wrapper">
+  <div class="logo-scroll-wrapper" style="padding: 60px 0; min-height: 200px;">
     <div class="logo-scroll-track">
 
       <div class="logo-item" data-label="Laser Scanners">
