@@ -73,6 +73,7 @@ show_posts: false
 
       <a href="{{ '/about/' | relative_url }}"
          style="
+           margin-top:10px;
            padding:12px 28px;
            font-size:15px;
            font-weight:500;
