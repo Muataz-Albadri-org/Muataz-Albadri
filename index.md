@@ -238,7 +238,7 @@ show_posts: false
 </section>
 
 <!-- =========================
-     PROJECTS
+     PROJECTS (Expandable)
 ========================== -->
 <section style="
   margin-bottom:80px;
@@ -265,17 +265,24 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0 0 8px 0; font-size:1.1rem;">
-        <a href="{{ '/projects/heritage-building' | relative_url }}" 
-           style="text-decoration:none; color:#ffffff; transition:color 0.3s ease;"
-           onmouseover="this.style.color='#2C3E50';" 
-           onmouseout="this.style.color='#ffffff';">
-           Heritage Building Renovation
-        </a>
+      <h3 style="margin:0 0 8px 0; font-size:1.1rem; cursor:pointer;" 
+          onclick="this.nextElementSibling.classList.toggle('open');">
+        Heritage Building Renovation
       </h3>
-      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">
-        Location: London, UK | Timeline: Jan–Jun 2025
-      </p>
+      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: London, UK | Timeline: Jan–Jun 2025</p>
+      <div class="project-details" style="
+        max-height:0;
+        overflow:hidden;
+        transition:max-height 0.5s ease;
+        color:#ccc;
+      ">
+        <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
+          <li><strong>Problem:</strong> Legacy building lacked accurate documentation; renovation planning risked errors.</li>
+          <li><strong>Solution:</strong> Collected point clouds and photogrammetry, automated AI segmentation, and generated as-built BIM models.</li>
+          <li><strong>Tools:</strong> Leica BLK360, Revit, Python scripts, OpenBIM workflows.</li>
+          <li><strong>Outcome:</strong> Modeling time reduced by 60%; LOD 350 BIM delivered; fully ready for facility management.</li>
+        </ul>
+      </div>
     </div>
 
     <!-- Project 2 -->
@@ -286,17 +293,24 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0 0 8px 0; font-size:1.1rem;">
-        <a href="{{ '/projects/urban-infra-upgrade' | relative_url }}" 
-           style="text-decoration:none; color:#ffffff; transition:color 0.3s ease;"
-           onmouseover="this.style.color='#2C3E50';" 
-           onmouseout="this.style.color='#ffffff';">
-           Urban Infrastructure Upgrade
-        </a>
+      <h3 style="margin:0 0 8px 0; font-size:1.1rem; cursor:pointer;" 
+          onclick="this.nextElementSibling.classList.toggle('open');">
+        Urban Infrastructure Upgrade
       </h3>
-      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">
-        Location: Berlin, Germany | Timeline: Mar–Sep 2024
-      </p>
+      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: Berlin, Germany | Timeline: Mar–Sep 2024</p>
+      <div class="project-details" style="
+        max-height:0;
+        overflow:hidden;
+        transition:max-height 0.5s ease;
+        color:#ccc;
+      ">
+        <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
+          <li><strong>Problem:</strong> Existing utilities lacked proper digital documentation, delaying planning.</li>
+          <li><strong>Solution:</strong> Collected geospatial and LiDAR data, automated AI-based feature extraction, and developed BIM-integrated maps.</li>
+          <li><strong>Tools:</strong> Leica RTC360, AutoCAD, Revit, Python workflows.</li>
+          <li><strong>Outcome:</strong> 50% faster planning approvals; digital twin integrated with city GIS systems.</li>
+        </ul>
+      </div>
     </div>
 
     <!-- Project 3 -->
@@ -307,17 +321,24 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0 0 8px 0; font-size:1.1rem;">
-        <a href="{{ '/projects/commercial-office' | relative_url }}" 
-           style="text-decoration:none; color:#ffffff; transition:color 0.3s ease;"
-           onmouseover="this.style.color='#2C3E50';" 
-           onmouseout="this.style.color='#ffffff';">
-           Commercial Office Complex
-        </a>
+      <h3 style="margin:0 0 8px 0; font-size:1.1rem; cursor:pointer;" 
+          onclick="this.nextElementSibling.classList.toggle('open');">
+        Commercial Office Complex
       </h3>
-      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">
-        Location: Dubai, UAE | Timeline: Jul–Dec 2025
-      </p>
+      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: Dubai, UAE | Timeline: Jul–Dec 2025</p>
+      <div class="project-details" style="
+        max-height:0;
+        overflow:hidden;
+        transition:max-height 0.5s ease;
+        color:#ccc;
+      ">
+        <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
+          <li><strong>Problem:</strong> Complex lacked coordinated BIM models for multi-disciplinary design.</li>
+          <li><strong>Solution:</strong> Integrated point clouds with architectural, structural, and MEP designs; automated clash detection and as-built updates.</li>
+          <li><strong>Tools:</strong> Revit, Navisworks, Python, OpenBIM standards.</li>
+          <li><strong>Outcome:</strong> Reduced design conflicts by 70%; accelerated handover; fully BIM-compliant for facility management.</li>
+        </ul>
+      </div>
     </div>
 
   </div>
@@ -344,6 +365,27 @@ show_posts: false
   </div>
 
 </section>
+
+<!-- =========================
+     JS for Accordion Expand
+========================== -->
+<script>
+  document.querySelectorAll('.project-details').forEach(function(el){
+    el.classList.add('accordion');
+  });
+
+  document.querySelectorAll('h3').forEach(function(title){
+    title.addEventListener('click', function(){
+      const content = this.nextElementSibling;
+      if(content.style.maxHeight && content.style.maxHeight !== '0px'){
+        content.style.maxHeight = '0';
+      } else {
+        content.style.maxHeight = content.scrollHeight + 'px';
+      }
+    });
+  });
+</script>
+
 
 
 
