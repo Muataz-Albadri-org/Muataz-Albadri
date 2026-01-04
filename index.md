@@ -43,7 +43,7 @@ show_posts: false
         font-weight:400;
         color:#666;
       ">
-        R&amp;D Engineer &amp; Scan-to-BIM Specialist
+        Senior Civil Engineer |; Digital Transformation &amp; Scan-to-BIM
       </h3>
     </div>
 
@@ -62,10 +62,9 @@ show_posts: false
         text-justify:inter-word;
         hyphens:auto;
       ">
-        I help engineering firms, contractors, and asset owners transform reality capture
-        data into reliable digital twins and automated BIM workflows. My work focuses on
-        reducing delivery time, minimizing modeling errors, and enabling data-driven
-        decision-making across the asset lifecycle.
+        I help engineering firms, contractors, and asset owners transform reality 
+        data into reliable digital models, driving digital transfotmation through 
+        Scan-to-BIM, autmoation, and AI-powered enginering workflows. 
       </p>
 
       <a href="{{ '/about/' | relative_url }}"
