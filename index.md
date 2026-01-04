@@ -192,36 +192,50 @@ show_posts: false
 
 
   <!-- =========================
-       TECHNICAL DEMO
-  ========================== -->
-  <section style="margin-bottom:60px;">
-    <h2> Demo Real</h2>
+     TECHNICAL DEMO
+========================== -->
+<section style="
+  margin-bottom:80px;
+  padding:32px 24px;
+  background: rgba(255,255,255,0.02);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:12px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.25);
+  text-align:center;
+">
 
-    <video
-      autoplay
-      muted
-      loop
-      playsinline
-      style="
-        width:100%;
-        max-width:900px;
-        margin:20px 0;
-        border-radius:8px;
-        display:block;
-      "
-    >
-      <source src="assets/demo.mp4" type="video/mp4">
-    </video>
+  <h2 style="margin-top:0; margin-bottom:24px;">Demo Real</h2>
 
-    <p style="
+  <video
+    autoplay
+    muted
+    loop
+    playsinline
+    style="
+      width:100%;
       max-width:900px;
-      text-align:justify;
-      hyphens:auto;
-    ">
-      Demonstration of Scan-to-BIM automation workflows, AI-based semantic segmentation,
-      and BIM scripting pipelines applied to real-world project data.
-    </p>
-  </section>
+      border-radius:8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+      display:block;
+      margin:0 auto 20px auto;
+    "
+  >
+    <source src="assets/demo.mp4" type="video/mp4">
+  </video>
+
+  <p style="
+    max-width:900px;
+    margin:0 auto;
+    text-align:justify;
+    hyphens:auto;
+    line-height:1.5;
+    color:#ccc;
+  ">
+    Demonstration of Scan-to-BIM automation workflows, AI-based semantic segmentation,
+    and BIM scripting pipelines applied to real-world project data.
+  </p>
+
+</section>
 
   <!-- =========================
        EXPERIENCE
