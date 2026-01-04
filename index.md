@@ -324,7 +324,7 @@ show_posts: false
 
   <!-- More Projects Button -->
   <div style="text-align:center; margin-top:36px;">
-    <a href="{{ '/projects/' | relative_url }}"
+    <a href="{{ '/Projects/' | relative_url }}"
        style="
          display:inline-block;
          padding:12px 28px;
