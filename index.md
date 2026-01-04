@@ -548,7 +548,7 @@ show_posts: false
 }
 </style>
 
-<section style="margin-bottom:10px;">
+<section style="margin:0; padding:60px 0; min-height:200px;">
   <!-- <h2>Technology Stack</h2> -->
 
   <div class="logo-scroll-wrapper" style="padding: 60px 0; min-height: 200px;">
