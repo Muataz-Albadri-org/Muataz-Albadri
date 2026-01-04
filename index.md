@@ -47,7 +47,7 @@ show_posts: false
 
     <p style="
       max-width:760px;
-      margin-top:24px;
+      margin-top:14px;
       text-align:justify;
       text-justify:inter-word;
       hyphens:auto;
@@ -61,7 +61,7 @@ show_posts: false
     <!-- About button -->
     <a href="{{ '/about/' | relative_url }}"
        style="
-         margin-top:20px;
+         margin-top:10px;
          padding:12px 28px;
          font-size:15px;
          font-weight:500;
