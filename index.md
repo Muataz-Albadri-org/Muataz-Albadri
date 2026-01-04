@@ -422,7 +422,7 @@ show_posts: false
   overflow: hidden;
   padding: 28px 0;
   background: transparent;
-  border-radius: 50%;
+  border-radius: 0;
 }
 
 /* Fade edges */
@@ -474,7 +474,7 @@ show_posts: false
 .logo-item img {
   width: auto;
   height: 150px;
-  border-radius: 6px;
+  border-radius: 50%;
   object-fit: contain;
   background: rgba(255,255,255,0.03);
   border: none;
