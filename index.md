@@ -28,7 +28,7 @@ show_posts: false
         style="
           width:200px;
           height:200px;
-          border-radius:0;
+          border-radius: 50%;
           object-fit:cover;
           border:3px solid #2C3E50;
         "
@@ -108,7 +108,7 @@ show_posts: false
   align-items: center;
   gap: 48px;
   width: max-content;
-  animation: logo-scroll 25s linear infinite;
+  animation: logo-scroll 20s linear infinite;
 }
 
 /* Pause on hover */
