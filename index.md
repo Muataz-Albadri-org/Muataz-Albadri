@@ -61,7 +61,7 @@ show_posts: false
     <!-- About button -->
     <a href="{{ '/about/' | relative_url }}"
        style="
-         margin-top:10px;
+         margin-top:5px;
          padding:12px 28px;
          font-size:15px;
          font-weight:500;
@@ -74,7 +74,7 @@ show_posts: false
        onmouseover="this.style.background='#1f2d3a'; this.style.transform='translateY(-2px)'"
        onmouseout="this.style.background='#2C3E50'; this.style.transform='translateY(0)'"
     >
-      About Me
+      About M
     </a>
 
   </div>
