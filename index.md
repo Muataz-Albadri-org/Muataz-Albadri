@@ -414,18 +414,20 @@ show_posts: false
 
 <style>
 /* -------------------------
-   Base container (dark)
+   Base container (rectangular)
 -------------------------- */
 .logo-scroll-wrapper {
   position: relative;
   width: 100%;
   overflow: hidden;
   padding: 28px 0;
-  background: transparent;
-  border-radius: 0;
+  background: rgba(255,255,255,0.02);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
 }
 
-/* Fade edges */
+/* Fade edges for visual effect */
 .logo-scroll-wrapper::before,
 .logo-scroll-wrapper::after {
   content: "";
@@ -439,12 +441,12 @@ show_posts: false
 
 .logo-scroll-wrapper::before {
   left: 0;
-  background: transparent;
+  background: linear-gradient(to right, rgba(11,13,18,1), rgba(11,13,18,0));
 }
 
 .logo-scroll-wrapper::after {
   right: 0;
-  background: transparent;
+  background: linear-gradient(to left, rgba(11,13,18,1), rgba(11,13,18,0));
 }
 
 /* -------------------------
@@ -474,14 +476,14 @@ show_posts: false
 .logo-item img {
   width: auto;
   height: 150px;
-  border-radius: 6px;
+  border-radius: 6px;       /* rectangular, slightly rounded */
   object-fit: contain;
   background: rgba(255,255,255,0.03);
   border: none;
-  padding: 0;
+  padding: 6px;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-  
 .logo-item:hover img {
   transform: scale(1.05);
   filter: grayscale(0%);
@@ -493,14 +495,12 @@ show_posts: false
 .logo-item::after {
   content: attr(data-label);
   position: absolute;
-  bottom: -36px;
+  bottom: -28px;
   left: 50%;
   transform: translateX(-50%);
   background: transparent;
   color: #e6e8eb;
-  padding: 0;
   font-size: 12px;
-  border-radius: 0;
   white-space: nowrap;
   opacity: 0;
   pointer-events: none;
@@ -529,12 +529,12 @@ show_posts: false
 @media (max-width: 768px) {
   .logo-scroll-track {
     animation-duration: 40s;
-    gap: 10px;
+    gap: 16px;
   }
 
   .logo-item img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
 }
 
@@ -549,8 +549,8 @@ show_posts: false
 }
 </style>
 
-<section style="margin-bottom:10px;">
-  <h2>Technology Stack</h2>
+<section style="margin-bottom:60px;">
+  <h2 style="margin-bottom:24px; text-align:center;">Technology Stack</h2>
 
   <div class="logo-scroll-wrapper">
     <div class="logo-scroll-track">
@@ -596,10 +596,6 @@ show_posts: false
         <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python">
       </div>
       
-      <div class="logo-item" data-label="Figure">
-        <img src="{{ '/assets/logos/Figure 7.svg' | relative_url }}" alt="Figure">
-      </div>
-      
       <div class="logo-item" data-label="Artificial Intelligence">
         <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI">
       </div>
@@ -608,21 +604,10 @@ show_posts: false
         <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Revit">
       </div>
 
-      <div class="logo-item" data-label="AutoCAD">
-        <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD">
-      </div>
-
-      <div class="logo-item" data-label="BlenderBIM">
-        <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM">
-      </div>
-
-      <div class="logo-item" data-label="IFC / buildingSMART">
-        <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC">
-      </div>
-
     </div>
   </div>
 </section>
+
   <!-- =========================
        PORTFOLIO
   ========================== -->
