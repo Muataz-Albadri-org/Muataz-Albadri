@@ -129,7 +129,7 @@ show_posts: false
     ">
       <h3 style="margin:0; font-size:1.05rem;">Data Collection for Buildings & Infrastructure</h3>
       <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
-        Planning and coordination of reality data collection for buildings, bridges, and roads, including LiDAR, photogrammetry, and ensuring data quality, coverage, and suitability.
+        Planning and coordination of reality data collection for buildings, bridges, and roads, including LiDAR and photogrammetry, and ensuring data quality, coverage, and suitability.
       </p>
     </div>
 
