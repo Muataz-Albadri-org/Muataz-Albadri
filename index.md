@@ -420,7 +420,7 @@ show_posts: false
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding: 28px 0;
+  padding: 5px 0;
   background: transparent;
   border-radius: 0;
 }
