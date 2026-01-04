@@ -238,30 +238,85 @@ show_posts: false
 </section>
 
   <!-- =========================
-       EXPERIENCE
-  ========================== -->
-  <section style="margin-bottom:60px;">
-    <h2>Selected Engagements</h2>
+     PROJECTS
+========================== -->
+<section style="
+  margin-bottom:80px;
+  padding:40px 32px;
+  background: rgba(255,255,255,0.02);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+">
 
-    <ul style="
-      max-width:900px;
-      text-align:justify;
-      hyphens:auto;
+  <h2 style="margin-top:0; margin-bottom:36px; text-align:center;">Projects</h2>
+
+  <div style="
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap:28px;
+  ">
+
+    <!-- Project 1 -->
+    <div style="
+      padding:24px 28px;
+      background: rgba(255,255,255,0.03);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:10px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <li>
-        <strong>Automated Indoor Scan-to-BIM</strong> — Achieved a reduction in modeling
-        time exceeding 60% through automation and standardized workflows.
-      </li>
-      <li>
-        <strong>AI-Based Object Recognition</strong> — Integrated semantic segmentation
-        outputs directly into downstream BIM authoring processes.
-      </li>
-      <li>
-        <strong>Enterprise BIM Automation</strong> — Delivered reusable, production-ready
-        pipelines supporting large-scale and multi-site projects.
-      </li>
-    </ul>
-  </section>
+      <h3 style="margin:0 0 8px 0; font-size:1.1rem;">Heritage Building Renovation</h3>
+      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: London, UK | Timeline: Jan–Jun 2025</p>
+      
+      <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
+        <li><strong>Challenge:</strong> Legacy building lacked accurate documentation; renovation planning risked errors.</li>
+        <li><strong>Solution:</strong> Collected point clouds and photogrammetry, automated AI segmentation, and generated as-built BIM models.</li>
+        <li><strong>Tools:</strong> Leica BLK360, Revit, Python scripts, OpenBIM workflows.</li>
+        <li><strong>Outcome:</strong> Modeling time reduced by 60%; LOD 350 BIM delivered; fully ready for facility management.</li>
+      </ul>
+    </div>
+
+    <!-- Project 2 -->
+    <div style="
+      padding:24px 28px;
+      background: rgba(255,255,255,0.03);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:10px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+    ">
+      <h3 style="margin:0 0 8px 0; font-size:1.1rem;">Urban Infrastructure Upgrade</h3>
+      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: Berlin, Germany | Timeline: Mar–Sep 2024</p>
+      
+      <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
+        <li><strong>Challenge:</strong> Existing utilities lacked proper digital documentation, delaying planning.</li>
+        <li><strong>Solution:</strong> Collected geospatial and LiDAR data, automated AI-based feature extraction, and developed BIM-integrated maps.</li>
+        <li><strong>Tools:</strong> Leica RTC360, AutoCAD, Revit, Python workflows.</li>
+        <li><strong>Outcome:</strong> 50% faster planning approvals; digital twin integrated with city GIS systems.</li>
+      </ul>
+    </div>
+
+    <!-- Project 3 -->
+    <div style="
+      padding:24px 28px;
+      background: rgba(255,255,255,0.03);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:10px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+    ">
+      <h3 style="margin:0 0 8px 0; font-size:1.1rem;">Commercial Office Complex</h3>
+      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: Dubai, UAE | Timeline: Jul–Dec 2025</p>
+      
+      <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
+        <li><strong>Challenge:</strong> Complex lacked coordinated BIM models for multi-disciplinary design.</li>
+        <li><strong>Solution:</strong> Integrated point clouds with architectural, structural, and MEP designs; automated clash detection and as-built updates.</li>
+        <li><strong>Tools:</strong> Revit, Navisworks, Python, OpenBIM standards.</li>
+        <li><strong>Outcome:</strong> Reduced design conflicts by 70%; accelerated handover; fully BIM-compliant for facility management.</li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
 
 
 
