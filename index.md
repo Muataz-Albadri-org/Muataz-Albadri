@@ -95,63 +95,114 @@ show_posts: false
 
 
   <!-- =========================
-       SERVICES
-  ========================== -->
-  <section style="margin-bottom:60px;">
-    <h2> Services</h2>
+     SERVICES
+========================== -->
+<section style="
+  margin-bottom:80px;
+  padding:40px 32px;
+  background: rgba(255,255,255,0.02);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+">
 
-    <div class="services">
+  <h2 style="
+    margin-top:0;
+    margin-bottom:32px;
+    text-align:center;
+  ">
+    Consulting Services
+  </h2>
 
-      <div class="service">
-        <span>Scan-to-BIM</span>
-        <p style="
-          margin:8px 0 0;
-          text-align:justify;
-          hyphens:auto;
-        ">
-          Conversion of point clouds into Revit and IFC models with structured semantics,
-          modeling standards compliance, and quality-assurance–ready deliverables.
-        </p>
-      </div>
+  <div style="
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap:28px;
+  ">
 
-      <div class="service">
-        <span>AI for Reality Data</span>
-        <p style="
-          margin:8px 0 0;
-          text-align:justify;
-          hyphens:auto;
-        ">
-          Automated detection and classification of building elements from laser scanning
-          and photogrammetric data using AI-assisted workflows.
-        </p>
-      </div>
-
-      <div class="service">
-        <span>BIM Automation</span>
-        <p style="
-          margin:8px 0 0;
-          text-align:justify;
-          hyphens:auto;
-        ">
-          Development of scalable production pipelines using Python, Dynamo, and the Revit
-          API to standardize and accelerate BIM delivery.
-        </p>
-      </div>
-
-      <div class="service">
-        <span>Digital Twins</span>
-        <p style="
-          margin:8px 0 0;
-          text-align:justify;
-          hyphens:auto;
-        ">
-          Creation of operational-ready BIM models integrated with analytics and asset
-          management platforms to support informed operational decisions.
-        </p>
-      </div>
-
+    <!-- Service card -->
+    <div style="
+      padding:22px 24px;
+      background: rgba(255,255,255,0.03);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:10px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+    ">
+      <h3 style="margin:0; font-size:1.05rem;">Scan-to-BIM</h3>
+      <p style="
+        margin:10px 0 0;
+        text-align:justify;
+        hyphens:auto;
+        line-height:1.5;
+      ">
+        Conversion of point clouds into Revit and IFC models with structured semantics,
+        modeling standards compliance, and quality-assurance–ready deliverables.
+      </p>
     </div>
-  </section>
+
+    <!-- Service card -->
+    <div style="
+      padding:22px 24px;
+      background: rgba(255,255,255,0.03);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:10px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+    ">
+      <h3 style="margin:0; font-size:1.05rem;">AI for Reality Data</h3>
+      <p style="
+        margin:10px 0 0;
+        text-align:justify;
+        hyphens:auto;
+        line-height:1.5;
+      ">
+        Automated detection and classification of building elements from laser scanning
+        and photogrammetric data using AI-assisted workflows.
+      </p>
+    </div>
+
+    <!-- Service card -->
+    <div style="
+      padding:22px 24px;
+      background: rgba(255,255,255,0.03);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:10px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+    ">
+      <h3 style="margin:0; font-size:1.05rem;">BIM Automation</h3>
+      <p style="
+        margin:10px 0 0;
+        text-align:justify;
+        hyphens:auto;
+        line-height:1.5;
+      ">
+        Development of scalable production pipelines using Python, Dynamo, and the Revit
+        API to standardize and accelerate BIM delivery.
+      </p>
+    </div>
+
+    <!-- Service card -->
+    <div style="
+      padding:22px 24px;
+      background: rgba(255,255,255,0.03);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:10px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+    ">
+      <h3 style="margin:0; font-size:1.05rem;">Digital Twins</h3>
+      <p style="
+        margin:10px 0 0;
+        text-align:justify;
+        hyphens:auto;
+        line-height:1.5;
+      ">
+        Creation of operational-ready BIM models integrated with analytics and asset
+        management platforms to support informed operational decisions.
+      </p>
+    </div>
+
+  </div>
+</section>
+
 
   <!-- =========================
        TECHNICAL DEMO
