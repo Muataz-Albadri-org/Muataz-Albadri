@@ -624,19 +624,37 @@ show_posts: false
 </section>
 
   <!-- =========================
-       PORTFOLIO
-  ========================== -->
-  <section style="margin-bottom:60px;">
-    <h2>Portfolio &amp; Credentials</h2>
+     CV
+========================== -->
+<section style="
+  margin-bottom:60px;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+">
 
-    <a
-      href="assets/portfolio.pdf"
-      target="_blank"
-      class="button"
-    >
-      Download Consultant Portfolio
-    </a>
-  </section>
+  <a
+    href="assets/portfolio.pdf"
+    target="_blank"
+    style="
+      padding: 14px 32px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #ffffff;
+      background-color: #2C3E50;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    "
+    onmouseover="this.style.backgroundColor='#1f2d3a'; this.style.transform='translateY(-2px)'"
+    onmouseout="this.style.backgroundColor='#2C3E50'; this.style.transform='translateY(0)'"
+  >
+    Download Consultant Portfolio
+  </a>
+
+</section>
+
 
   <!-- =========================
        CONTACT
