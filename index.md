@@ -181,7 +181,7 @@ show_posts: false
 -------------------------- */
 @media (max-width: 768px) {
   .logo-scroll-track {
-    animation-duration: 40s;
+    animation-duration: 25s;
     gap: 10px;
   }
 
