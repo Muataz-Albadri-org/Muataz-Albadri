@@ -61,7 +61,7 @@ show_posts: false
     ">
 
       <p style="
-        margin:0;
+        margin:10px;
         text-align:justify;
         text-justify:inter-word;
         hyphens:auto;
