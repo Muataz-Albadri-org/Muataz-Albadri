@@ -414,25 +414,15 @@ show_posts: false
 
 <style>
 /* -------------------------
-   Base container (section rectangle)
--------------------------- */
-.logo-section-container {
-  margin-bottom:60px;
-  padding:28px 20px;
-  background: rgba(255,255,255,0.02);
-  border:1px solid rgba(255,255,255,0.08);
-  border-radius:12px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
-}
-
-/* -------------------------
-   Scrolling wrapper (kept as before)
+   Base container (dark)
 -------------------------- */
 .logo-scroll-wrapper {
   position: relative;
   width: 100%;
   overflow: hidden;
   padding: 28px 0;
+  background: transparent;
+  border-radius: 50%;
 }
 
 /* Fade edges */
@@ -449,15 +439,17 @@ show_posts: false
 
 .logo-scroll-wrapper::before {
   left: 0;
-  background: linear-gradient(to right, rgba(11,13,18,1), rgba(11,13,18,0));
+  background: transparent;
 }
 
 .logo-scroll-wrapper::after {
   right: 0;
-  background: linear-gradient(to left, rgba(11,13,18,1), rgba(11,13,18,0));
+  background: transparent;
 }
 
-/* Scrolling track */
+/* -------------------------
+   Scrolling track
+-------------------------- */
 .logo-scroll-track {
   display: flex;
   align-items: center;
@@ -466,11 +458,14 @@ show_posts: false
   animation: logo-scroll 25s linear infinite;
 }
 
+/* Pause on hover */
 .logo-scroll-wrapper:hover .logo-scroll-track {
   animation-play-state: paused;
 }
 
-/* Logo items remain unchanged */
+/* -------------------------
+   Logo items
+-------------------------- */
 .logo-item {
   flex: 0 0 auto;
   position: relative;
@@ -479,11 +474,11 @@ show_posts: false
 .logo-item img {
   width: auto;
   height: 150px;
-  border-radius: 6px;       /* keep logos as rectangles or circles inside */
+  border-radius: 6px;
   object-fit: contain;
   background: rgba(255,255,255,0.03);
-  padding: 6px;
-  transition: transform 0.3s ease, filter 0.3s ease;
+  border: none;
+  padding: 0;
 }
 
 .logo-item:hover img {
@@ -491,15 +486,20 @@ show_posts: false
   filter: grayscale(0%);
 }
 
-/* Tooltip */
+/* -------------------------
+   Tooltip
+-------------------------- */
 .logo-item::after {
   content: attr(data-label);
   position: absolute;
-  bottom: -28px;
+  bottom: -36px;
   left: 50%;
   transform: translateX(-50%);
+  background: transparent;
   color: #e6e8eb;
+  padding: 0;
   font-size: 12px;
+  border-radius: 0;
   white-space: nowrap;
   opacity: 0;
   pointer-events: none;
@@ -510,26 +510,36 @@ show_posts: false
   opacity: 1;
 }
 
-/* Animation */
+/* -------------------------
+   Animation
+-------------------------- */
 @keyframes logo-scroll {
-  from { transform: translateX(-50%); }
-  to { transform: translateX(0); }
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
-/* Mobile */
+/* -------------------------
+   Mobile behavior
+-------------------------- */
 @media (max-width: 768px) {
   .logo-scroll-track {
     animation-duration: 40s;
-    gap: 16px;
+    gap: 10px;
   }
 
   .logo-item img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
   }
 }
 
-/* Accessibility: reduced motion */
+/* -------------------------
+   Accessibility: reduced motion
+-------------------------- */
 @media (prefers-reduced-motion: reduce) {
   .logo-scroll-track {
     animation: none;
@@ -538,8 +548,8 @@ show_posts: false
 }
 </style>
 
-<section class="logo-section-container">
-  <h2 style="margin-bottom:24px; text-align:center;">Technology Stack</h2>
+<section style="margin-bottom:10px;">
+  <h2>Technology Stack</h2>
 
   <div class="logo-scroll-wrapper">
     <div class="logo-scroll-track">
@@ -551,7 +561,11 @@ show_posts: false
       <div class="logo-item" data-label="Python">
         <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python">
       </div>
-      
+
+      <div class="logo-item" data-label="Figure">
+        <img src="{{ '/assets/logos/Figure 7.svg' | relative_url }}" alt="Figure">
+      </div>
+
       <div class="logo-item" data-label="Artificial Intelligence">
         <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI">
       </div>
@@ -579,6 +593,30 @@ show_posts: false
 
       <div class="logo-item" data-label="Python">
         <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python">
+      </div>
+
+      <div class="logo-item" data-label="Figure">
+        <img src="{{ '/assets/logos/Figure 7.svg' | relative_url }}" alt="Figure">
+      </div>
+
+      <div class="logo-item" data-label="Artificial Intelligence">
+        <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI">
+      </div>
+
+      <div class="logo-item" data-label="Autodesk Revit">
+        <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Revit">
+      </div>
+
+      <div class="logo-item" data-label="AutoCAD">
+        <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD">
+      </div>
+
+      <div class="logo-item" data-label="BlenderBIM">
+        <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM">
+      </div>
+
+      <div class="logo-item" data-label="IFC / buildingSMART">
+        <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC">
       </div>
 
     </div>
