@@ -108,7 +108,7 @@ show_posts: false
   align-items: center;
   gap: 48px;
   width: max-content;
-  animation: logo-scroll 20s linear infinite;
+  animation: logo-scroll 25s linear infinite;
 }
 
 /* Pause on hover */
@@ -181,7 +181,7 @@ show_posts: false
 -------------------------- */
 @media (max-width: 768px) {
   .logo-scroll-track {
-    animation-duration: 25s;
+    animation-duration: 40s;
     gap: 10px;
   }
 
