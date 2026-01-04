@@ -414,20 +414,28 @@ show_posts: false
 
 <style>
 /* -------------------------
-   Base container (rectangular)
+   Base container (section rectangle)
 -------------------------- */
-.logo-scroll-wrapper {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding: 28px 0;
+.logo-section-container {
+  margin-bottom:60px;
+  padding:28px 20px;
   background: rgba(255,255,255,0.02);
   border:1px solid rgba(255,255,255,0.08);
   border-radius:12px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.25);
 }
 
-/* Fade edges for visual effect */
+/* -------------------------
+   Scrolling wrapper (kept as before)
+-------------------------- */
+.logo-scroll-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 28px 0;
+}
+
+/* Fade edges */
 .logo-scroll-wrapper::before,
 .logo-scroll-wrapper::after {
   content: "";
@@ -449,9 +457,7 @@ show_posts: false
   background: linear-gradient(to left, rgba(11,13,18,1), rgba(11,13,18,0));
 }
 
-/* -------------------------
-   Scrolling track
--------------------------- */
+/* Scrolling track */
 .logo-scroll-track {
   display: flex;
   align-items: center;
@@ -460,14 +466,11 @@ show_posts: false
   animation: logo-scroll 25s linear infinite;
 }
 
-/* Pause on hover */
 .logo-scroll-wrapper:hover .logo-scroll-track {
   animation-play-state: paused;
 }
 
-/* -------------------------
-   Logo items
--------------------------- */
+/* Logo items remain unchanged */
 .logo-item {
   flex: 0 0 auto;
   position: relative;
@@ -476,10 +479,9 @@ show_posts: false
 .logo-item img {
   width: auto;
   height: 150px;
-  border-radius: 6px;       /* rectangular, slightly rounded */
+  border-radius: 6px;       /* keep logos as rectangles or circles inside */
   object-fit: contain;
   background: rgba(255,255,255,0.03);
-  border: none;
   padding: 6px;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
@@ -489,16 +491,13 @@ show_posts: false
   filter: grayscale(0%);
 }
 
-/* -------------------------
-   Tooltip
--------------------------- */
+/* Tooltip */
 .logo-item::after {
   content: attr(data-label);
   position: absolute;
   bottom: -28px;
   left: 50%;
   transform: translateX(-50%);
-  background: transparent;
   color: #e6e8eb;
   font-size: 12px;
   white-space: nowrap;
@@ -511,21 +510,13 @@ show_posts: false
   opacity: 1;
 }
 
-/* -------------------------
-   Animation
--------------------------- */
+/* Animation */
 @keyframes logo-scroll {
-  from {
-    transform: translateX(-50%);
-  }
-  to {
-    transform: translateX(0);
-  }
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
 }
 
-/* -------------------------
-   Mobile behavior
--------------------------- */
+/* Mobile */
 @media (max-width: 768px) {
   .logo-scroll-track {
     animation-duration: 40s;
@@ -538,9 +529,7 @@ show_posts: false
   }
 }
 
-/* -------------------------
-   Accessibility: reduced motion
--------------------------- */
+/* Accessibility: reduced motion */
 @media (prefers-reduced-motion: reduce) {
   .logo-scroll-track {
     animation: none;
@@ -549,7 +538,7 @@ show_posts: false
 }
 </style>
 
-<section style="margin-bottom:60px;">
+<section class="logo-section-container">
   <h2 style="margin-bottom:24px; text-align:center;">Technology Stack</h2>
 
   <div class="logo-scroll-wrapper">
@@ -561,10 +550,6 @@ show_posts: false
 
       <div class="logo-item" data-label="Python">
         <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python">
-      </div>
-      
-      <div class="logo-item" data-label="Figure">
-        <img src="{{ '/assets/logos/Figure 7.svg' | relative_url }}" alt="Figure">
       </div>
       
       <div class="logo-item" data-label="Artificial Intelligence">
@@ -594,14 +579,6 @@ show_posts: false
 
       <div class="logo-item" data-label="Python">
         <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python">
-      </div>
-      
-      <div class="logo-item" data-label="Artificial Intelligence">
-        <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI">
-      </div>
-
-      <div class="logo-item" data-label="Autodesk Revit">
-        <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Revit">
       </div>
 
     </div>
