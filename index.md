@@ -36,32 +36,19 @@ show_posts: false
     >
 
     <!-- Name & Title -->
-<div style="max-width:100%; overflow:hidden;">
+<div>
   <h1 style="margin:0;">Muataz Albadri</h1>
 
-  <h3
-    class="hero-subtitle"
-    style="
-      margin:6px 0 0;
-      font-weight:400;
-      color:#666;
-      white-space:nowrap;
-      max-width:100%;
-    "
-  >
+  <h3 style="
+    margin:6px 0 0;
+    font-weight:400;
+    color:#666;
+    line-height:1.35;
+  ">
     Senior Civil Engineer | Digital Transformation &amp; Scan-to-BIM
   </h3>
 </div>
 
-<style>
-  @media (max-width: 768px) {
-    .hero-subtitle {
-      white-space: normal;
-      overflow-wrap: break-word;
-      word-break: normal;
-    }
-  }
-</style>
 
 
     <!-- Description + Button (grouped for tight spacing) -->
