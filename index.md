@@ -93,8 +93,7 @@ show_posts: false
   </div>
 </section>
 
-
-  <!-- =========================
+<!-- =========================
      SERVICES
 ========================== -->
 <section style="
@@ -111,7 +110,7 @@ show_posts: false
     margin-bottom:32px;
     text-align:center;
   ">
-    Consulting Services
+    Professional Services
   </h2>
 
   <div style="
@@ -120,7 +119,7 @@ show_posts: false
     gap:28px;
   ">
 
-    <!-- Service card -->
+    <!-- Service cards (existing) -->
     <div style="
       padding:22px 24px;
       background: rgba(255,255,255,0.03);
@@ -128,19 +127,12 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0; font-size:1.05rem;">Scan-to-BIM</h3>
-      <p style="
-        margin:10px 0 0;
-        text-align:justify;
-        hyphens:auto;
-        line-height:1.5;
-      ">
-        Conversion of point clouds into Revit and IFC models with structured semantics,
-        modeling standards compliance, and quality-assurance–ready deliverables.
+      <h3 style="margin:0; font-size:1.05rem;">Data Collection for Buildings & Infrastructure</h3>
+      <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
+        Planning and coordination of reality data collection for buildings, bridges, and roads, including LiDAR, photogrammetry, and ensuring data quality, coverage, and suitability.
       </p>
     </div>
 
-    <!-- Service card -->
     <div style="
       padding:22px 24px;
       background: rgba(255,255,255,0.03);
@@ -148,19 +140,12 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0; font-size:1.05rem;">AI for Reality Data</h3>
-      <p style="
-        margin:10px 0 0;
-        text-align:justify;
-        hyphens:auto;
-        line-height:1.5;
-      ">
-        Automated detection and classification of building elements from laser scanning
-        and photogrammetric data using AI-assisted workflows.
+      <h3 style="margin:0; font-size:1.05rem;">Spatial Data Processing & Engineering Analysis</h3>
+      <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
+        Processing, cleaning, and analysis of point clouds, images, and geospatial data to extract reliable geometric, spatial, and condition information that supports decision making and downstream workflows.
       </p>
     </div>
 
-    <!-- Service card -->
     <div style="
       padding:22px 24px;
       background: rgba(255,255,255,0.03);
@@ -168,19 +153,12 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0; font-size:1.05rem;">BIM Automation</h3>
-      <p style="
-        margin:10px 0 0;
-        text-align:justify;
-        hyphens:auto;
-        line-height:1.5;
-      ">
-        Development of scalable production pipelines using Python, Dynamo, and the Revit
-        API to standardize and accelerate BIM delivery.
+      <h3 style="margin:0; font-size:1.05rem;">As-Built BIM & Digital Asset Modelling</h3>
+      <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
+        Development of accurate as-built BIM models for buildings and infrastructure, structured according to project objectives, asset lifecycle needs, and OpenBIM standards (e.g., IFC).
       </p>
     </div>
 
-    <!-- Service card -->
     <div style="
       padding:22px 24px;
       background: rgba(255,255,255,0.03);
@@ -188,20 +166,29 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0; font-size:1.05rem;">Digital Twins</h3>
-      <p style="
-        margin:10px 0 0;
-        text-align:justify;
-        hyphens:auto;
-        line-height:1.5;
-      ">
-        Creation of operational-ready BIM models integrated with analytics and asset
-        management platforms to support informed operational decisions.
+      <h3 style="margin:0; font-size:1.05rem;">AI & Automation for Construction and Asset Management</h3>
+      <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
+        Design and implementation of AI-assisted and automated workflows to accelerate extract information from reality data, BIM modelling, and improve efficiency across the projects.
       </p>
     </div>
 
   </div>
+
+  <!-- Summary sentence at the end -->
+  <p style="
+    margin-top:32px;
+    text-align:center;
+    font-style:italic;
+    color:#aaa;
+    max-width:720px;
+    margin-left:auto;
+    margin-right:auto;
+  ">
+    Services are delivered as standalone tasks or as an integrated digital workflow, depending on project needs.
+  </p>
+
 </section>
+
 
 
   <!-- =========================
