@@ -61,6 +61,127 @@ show_posts: false
     </div>
   </section>
 
+
+
+  <!-- =========================
+       SERVICES
+  ========================== -->
+  <section style="margin-bottom:60px;">
+    <h2>Consulting Services</h2>
+
+    <div class="services">
+
+      <div class="service">
+        <span>Scan-to-BIM</span>
+        <p style="
+          margin:8px 0 0;
+          text-align:justify;
+          hyphens:auto;
+        ">
+          Conversion of point clouds into Revit and IFC models with structured semantics,
+          modeling standards compliance, and quality-assurance–ready deliverables.
+        </p>
+      </div>
+
+      <div class="service">
+        <span>AI for Reality Data</span>
+        <p style="
+          margin:8px 0 0;
+          text-align:justify;
+          hyphens:auto;
+        ">
+          Automated detection and classification of building elements from laser scanning
+          and photogrammetric data using AI-assisted workflows.
+        </p>
+      </div>
+
+      <div class="service">
+        <span>BIM Automation</span>
+        <p style="
+          margin:8px 0 0;
+          text-align:justify;
+          hyphens:auto;
+        ">
+          Development of scalable production pipelines using Python, Dynamo, and the Revit
+          API to standardize and accelerate BIM delivery.
+        </p>
+      </div>
+
+      <div class="service">
+        <span>Digital Twins</span>
+        <p style="
+          margin:8px 0 0;
+          text-align:justify;
+          hyphens:auto;
+        ">
+          Creation of operational-ready BIM models integrated with analytics and asset
+          management platforms to support informed operational decisions.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================
+       TECHNICAL DEMO
+  ========================== -->
+  <section style="margin-bottom:60px;">
+    <h2>Technical Demonstration</h2>
+
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+      style="
+        width:100%;
+        max-width:900px;
+        margin:20px 0;
+        border-radius:8px;
+        display:block;
+      "
+    >
+      <source src="assets/demo.mp4" type="video/mp4">
+    </video>
+
+    <p style="
+      max-width:900px;
+      text-align:justify;
+      hyphens:auto;
+    ">
+      Demonstration of Scan-to-BIM automation workflows, AI-based semantic segmentation,
+      and BIM scripting pipelines applied to real-world project data.
+    </p>
+  </section>
+
+  <!-- =========================
+       EXPERIENCE
+  ========================== -->
+  <section style="margin-bottom:60px;">
+    <h2>Selected Engagements</h2>
+
+    <ul style="
+      max-width:900px;
+      text-align:justify;
+      hyphens:auto;
+    ">
+      <li>
+        <strong>Automated Indoor Scan-to-BIM</strong> — Achieved a reduction in modeling
+        time exceeding 60% through automation and standardized workflows.
+      </li>
+      <li>
+        <strong>AI-Based Object Recognition</strong> — Integrated semantic segmentation
+        outputs directly into downstream BIM authoring processes.
+      </li>
+      <li>
+        <strong>Enterprise BIM Automation</strong> — Delivered reusable, production-ready
+        pipelines supporting large-scale and multi-site projects.
+      </li>
+    </ul>
+  </section>
+
+
+
 <!-- =========================
      TECHNOLOGY STACK
 ========================== -->
@@ -276,124 +397,6 @@ show_posts: false
     </div>
   </div>
 </section>
-
-  <!-- =========================
-       SERVICES
-  ========================== -->
-  <section style="margin-bottom:60px;">
-    <h2>Consulting Services</h2>
-
-    <div class="services">
-
-      <div class="service">
-        <span>Scan-to-BIM</span>
-        <p style="
-          margin:8px 0 0;
-          text-align:justify;
-          hyphens:auto;
-        ">
-          Conversion of point clouds into Revit and IFC models with structured semantics,
-          modeling standards compliance, and quality-assurance–ready deliverables.
-        </p>
-      </div>
-
-      <div class="service">
-        <span>AI for Reality Data</span>
-        <p style="
-          margin:8px 0 0;
-          text-align:justify;
-          hyphens:auto;
-        ">
-          Automated detection and classification of building elements from laser scanning
-          and photogrammetric data using AI-assisted workflows.
-        </p>
-      </div>
-
-      <div class="service">
-        <span>BIM Automation</span>
-        <p style="
-          margin:8px 0 0;
-          text-align:justify;
-          hyphens:auto;
-        ">
-          Development of scalable production pipelines using Python, Dynamo, and the Revit
-          API to standardize and accelerate BIM delivery.
-        </p>
-      </div>
-
-      <div class="service">
-        <span>Digital Twins</span>
-        <p style="
-          margin:8px 0 0;
-          text-align:justify;
-          hyphens:auto;
-        ">
-          Creation of operational-ready BIM models integrated with analytics and asset
-          management platforms to support informed operational decisions.
-        </p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- =========================
-       TECHNICAL DEMO
-  ========================== -->
-  <section style="margin-bottom:60px;">
-    <h2>Technical Demonstration</h2>
-
-    <video
-      autoplay
-      muted
-      loop
-      playsinline
-      style="
-        width:100%;
-        max-width:900px;
-        margin:20px 0;
-        border-radius:8px;
-        display:block;
-      "
-    >
-      <source src="assets/demo.mp4" type="video/mp4">
-    </video>
-
-    <p style="
-      max-width:900px;
-      text-align:justify;
-      hyphens:auto;
-    ">
-      Demonstration of Scan-to-BIM automation workflows, AI-based semantic segmentation,
-      and BIM scripting pipelines applied to real-world project data.
-    </p>
-  </section>
-
-  <!-- =========================
-       EXPERIENCE
-  ========================== -->
-  <section style="margin-bottom:60px;">
-    <h2>Selected Engagements</h2>
-
-    <ul style="
-      max-width:900px;
-      text-align:justify;
-      hyphens:auto;
-    ">
-      <li>
-        <strong>Automated Indoor Scan-to-BIM</strong> — Achieved a reduction in modeling
-        time exceeding 60% through automation and standardized workflows.
-      </li>
-      <li>
-        <strong>AI-Based Object Recognition</strong> — Integrated semantic segmentation
-        outputs directly into downstream BIM authoring processes.
-      </li>
-      <li>
-        <strong>Enterprise BIM Automation</strong> — Delivered reusable, production-ready
-        pipelines supporting large-scale and multi-site projects.
-      </li>
-    </ul>
-  </section>
-
   <!-- =========================
        PORTFOLIO
   ========================== -->
