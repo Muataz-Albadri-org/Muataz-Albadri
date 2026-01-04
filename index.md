@@ -12,74 +12,44 @@ show_posts: false
   <!-- =========================
      HERO
 ========================== -->
-<section style="margin-bottom:60px;">
+<div style="
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:6px;
+">
 
-  <div style="
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-    gap:20px;
+  <p style="
+    max-width:760px;
+    margin:0;
+    text-align:justify;
+    text-justify:inter-word;
+    hyphens:auto;
   ">
+    I help engineering firms, contractors, and asset owners transform reality capture
+    data into reliable digital twins and automated BIM workflows. My work focuses on
+    reducing delivery time, minimizing modeling errors, and enabling data-driven
+    decision-making across the asset lifecycle.
+  </p>
 
-    <img
-      src="{{ '/assets/images/Muataz.jpg' | relative_url }}"
-      alt="Muataz Albadri"
-      style="
-        width:200px;
-        height:200px;
-        border-radius:50%;
-        object-fit:cover;
-        border:3px solid #2C3E50;
-      "
-    >
+  <a href="{{ '/about/' | relative_url }}"
+     style="
+       padding:12px 28px;
+       font-size:15px;
+       font-weight:500;
+       text-decoration:none;
+       color:#ffffff;
+       background:#2C3E50;
+       border-radius:6px;
+       transition:background 0.3s ease, transform 0.2s ease;
+     "
+     onmouseover="this.style.background='#1f2d3a'; this.style.transform='translateY(-2px)'"
+     onmouseout="this.style.background='#2C3E50'; this.style.transform='translateY(0)'"
+  >
+    About Me
+  </a>
 
-    <div>
-      <h1 style="margin:0;">Muataz Albadri</h1>
-      <h3 style="
-        margin:6px 0 0;
-        font-weight:400;
-        color:#666;
-      ">
-        R&amp;D Engineer &amp; Scan-to-BIM Specialist
-      </h3>
-    </div>
-
-    <p style="
-      max-width:760px;
-      margin-top:14px;
-      text-align:justify;
-      text-justify:inter-word;
-      hyphens:auto;
-    ">
-      I help engineering firms, contractors, and asset owners transform reality capture
-      data into reliable digital twins and automated BIM workflows. My work focuses on
-      reducing delivery time, minimizing modeling errors, and enabling data-driven
-      decision-making across the asset lifecycle.
-    </p>
-
-    <!-- About button -->
-    <a href="{{ '/about/' | relative_url }}"
-       style="
-         margin-top:5px;
-         padding:12px 28px;
-         font-size:15px;
-         font-weight:500;
-         text-decoration:none;
-         color:#ffffff;
-         background:#2C3E50;
-         border-radius:6px;
-         transition:background 0.3s ease, transform 0.2s ease;
-       "
-       onmouseover="this.style.background='#1f2d3a'; this.style.transform='translateY(-2px)'"
-       onmouseout="this.style.background='#2C3E50'; this.style.transform='translateY(0)'"
-    >
-      About M
-    </a>
-
-  </div>
-</section>
-
+</div>
 
 
 
