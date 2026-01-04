@@ -237,7 +237,7 @@ show_posts: false
 
 </section>
 
-  <!-- =========================
+<!-- =========================
      PROJECTS
 ========================== -->
 <section style="
@@ -265,15 +265,17 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0 0 8px 0; font-size:1.1rem;">Heritage Building Renovation</h3>
-      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: London, UK | Timeline: Jan–Jun 2025</p>
-      
-      <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
-        <li><strong>Challenge:</strong> Legacy building lacked accurate documentation; renovation planning risked errors.</li>
-        <li><strong>Solution:</strong> Collected point clouds and photogrammetry, automated AI segmentation, and generated as-built BIM models.</li>
-        <li><strong>Tools:</strong> Leica BLK360, Revit, Python scripts, OpenBIM workflows.</li>
-        <li><strong>Outcome:</strong> Modeling time reduced by 60%; LOD 350 BIM delivered; fully ready for facility management.</li>
-      </ul>
+      <h3 style="margin:0 0 8px 0; font-size:1.1rem;">
+        <a href="{{ '/projects/heritage-building' | relative_url }}" 
+           style="text-decoration:none; color:#ffffff; transition:color 0.3s ease;"
+           onmouseover="this.style.color='#2C3E50';" 
+           onmouseout="this.style.color='#ffffff';">
+           Heritage Building Renovation
+        </a>
+      </h3>
+      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">
+        Location: London, UK | Timeline: Jan–Jun 2025
+      </p>
     </div>
 
     <!-- Project 2 -->
@@ -284,15 +286,17 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0 0 8px 0; font-size:1.1rem;">Urban Infrastructure Upgrade</h3>
-      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: Berlin, Germany | Timeline: Mar–Sep 2024</p>
-      
-      <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
-        <li><strong>Challenge:</strong> Existing utilities lacked proper digital documentation, delaying planning.</li>
-        <li><strong>Solution:</strong> Collected geospatial and LiDAR data, automated AI-based feature extraction, and developed BIM-integrated maps.</li>
-        <li><strong>Tools:</strong> Leica RTC360, AutoCAD, Revit, Python workflows.</li>
-        <li><strong>Outcome:</strong> 50% faster planning approvals; digital twin integrated with city GIS systems.</li>
-      </ul>
+      <h3 style="margin:0 0 8px 0; font-size:1.1rem;">
+        <a href="{{ '/projects/urban-infra-upgrade' | relative_url }}" 
+           style="text-decoration:none; color:#ffffff; transition:color 0.3s ease;"
+           onmouseover="this.style.color='#2C3E50';" 
+           onmouseout="this.style.color='#ffffff';">
+           Urban Infrastructure Upgrade
+        </a>
+      </h3>
+      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">
+        Location: Berlin, Germany | Timeline: Mar–Sep 2024
+      </p>
     </div>
 
     <!-- Project 3 -->
@@ -303,17 +307,40 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0 0 8px 0; font-size:1.1rem;">Commercial Office Complex</h3>
-      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: Dubai, UAE | Timeline: Jul–Dec 2025</p>
-      
-      <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
-        <li><strong>Challenge:</strong> Complex lacked coordinated BIM models for multi-disciplinary design.</li>
-        <li><strong>Solution:</strong> Integrated point clouds with architectural, structural, and MEP designs; automated clash detection and as-built updates.</li>
-        <li><strong>Tools:</strong> Revit, Navisworks, Python, OpenBIM standards.</li>
-        <li><strong>Outcome:</strong> Reduced design conflicts by 70%; accelerated handover; fully BIM-compliant for facility management.</li>
-      </ul>
+      <h3 style="margin:0 0 8px 0; font-size:1.1rem;">
+        <a href="{{ '/projects/commercial-office' | relative_url }}" 
+           style="text-decoration:none; color:#ffffff; transition:color 0.3s ease;"
+           onmouseover="this.style.color='#2C3E50';" 
+           onmouseout="this.style.color='#ffffff';">
+           Commercial Office Complex
+        </a>
+      </h3>
+      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">
+        Location: Dubai, UAE | Timeline: Jul–Dec 2025
+      </p>
     </div>
 
+  </div>
+
+  <!-- More Projects Button -->
+  <div style="text-align:center; margin-top:36px;">
+    <a href="{{ '/projects/' | relative_url }}"
+       style="
+         display:inline-block;
+         padding:12px 28px;
+         font-size:15px;
+         font-weight:500;
+         text-decoration:none;
+         color:#ffffff;
+         background:#2C3E50;
+         border-radius:6px;
+         transition:background 0.3s ease, transform 0.2s ease;
+       "
+       onmouseover="this.style.background='#1f2d3a'; this.style.transform='translateY(-2px)';"
+       onmouseout="this.style.background='#2C3E50'; this.style.transform='translateY(0)';"
+    >
+      More Projects
+    </a>
   </div>
 
 </section>
