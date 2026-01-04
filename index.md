@@ -36,7 +36,7 @@ show_posts: false
     >
 
     <!-- Name & Title -->
-<div>
+<div style="max-width:100%; overflow:hidden;">
   <h1 style="margin:0;">Muataz Albadri</h1>
 
   <h3
@@ -46,6 +46,7 @@ show_posts: false
       font-weight:400;
       color:#666;
       white-space:nowrap;
+      max-width:100%;
     "
   >
     Senior Civil Engineer | Digital Transformation &amp; Scan-to-BIM
@@ -56,6 +57,8 @@ show_posts: false
   @media (max-width: 768px) {
     .hero-subtitle {
       white-space: normal;
+      overflow-wrap: break-word;
+      word-break: normal;
     }
   }
 </style>
