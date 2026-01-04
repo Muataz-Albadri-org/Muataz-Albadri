@@ -238,7 +238,7 @@ show_posts: false
 </section>
 
 <!-- =========================
-     PROJECTS (Expandable)
+     PROJECTS (Accordion)
 ========================== -->
 <section style="
   margin-bottom:80px;
@@ -265,15 +265,15 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0 0 8px 0; font-size:1.1rem; cursor:pointer;" 
-          onclick="this.nextElementSibling.classList.toggle('open');">
+      <h3 style="margin:0 0 8px 0; font-size:1.1rem; cursor:pointer;">
         Heritage Building Renovation
       </h3>
       <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: London, UK | Timeline: Jan–Jun 2025</p>
       <div class="project-details" style="
         max-height:0;
         overflow:hidden;
-        transition:max-height 0.5s ease;
+        transition:max-height 0.5s ease, padding 0.5s ease;
+        padding:0 0;
         color:#ccc;
       ">
         <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
@@ -293,15 +293,15 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0 0 8px 0; font-size:1.1rem; cursor:pointer;" 
-          onclick="this.nextElementSibling.classList.toggle('open');">
+      <h3 style="margin:0 0 8px 0; font-size:1.1rem; cursor:pointer;">
         Urban Infrastructure Upgrade
       </h3>
       <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: Berlin, Germany | Timeline: Mar–Sep 2024</p>
       <div class="project-details" style="
         max-height:0;
         overflow:hidden;
-        transition:max-height 0.5s ease;
+        transition:max-height 0.5s ease, padding 0.5s ease;
+        padding:0 0;
         color:#ccc;
       ">
         <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
@@ -321,15 +321,15 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0 0 8px 0; font-size:1.1rem; cursor:pointer;" 
-          onclick="this.nextElementSibling.classList.toggle('open');">
+      <h3 style="margin:0 0 8px 0; font-size:1.1rem; cursor:pointer;">
         Commercial Office Complex
       </h3>
       <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: Dubai, UAE | Timeline: Jul–Dec 2025</p>
       <div class="project-details" style="
         max-height:0;
         overflow:hidden;
-        transition:max-height 0.5s ease;
+        transition:max-height 0.5s ease, padding 0.5s ease;
+        padding:0 0;
         color:#ccc;
       ">
         <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
@@ -365,6 +365,25 @@ show_posts: false
   </div>
 
 </section>
+
+<!-- =========================
+     JS Accordion for Smooth Slide
+========================== -->
+<script>
+  document.querySelectorAll('h3').forEach(function(title){
+    title.addEventListener('click', function(){
+      const content = this.nextElementSibling.nextElementSibling; // target the .project-details div
+      if(content.style.maxHeight && content.style.maxHeight !== '0px'){
+        content.style.maxHeight = '0';
+        content.style.padding = '0 0';
+      } else {
+        content.style.maxHeight = content.scrollHeight + 'px';
+        content.style.padding = '8px 0';
+      }
+    });
+  });
+</script>
+
 
 <!-- =========================
      JS for Accordion Expand
