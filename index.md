@@ -45,7 +45,7 @@ show_posts: false
     color:#666;
     line-height:1.35;
   ">
-    Senior Civil Engineer | Digital Transformation &amp; Scan-to-BIM
+    Senior Civil Engineer | PhD Candidate | Scan-to-BIM Solutions
   </h3>
 </div>
 
@@ -67,7 +67,7 @@ show_posts: false
         hyphens:auto;
       ">
         I help engineering firms, contractors, and asset owners transform reality 
-        data into reliable digital models, driving digital transfotmation through 
+        data into digital models, driving digital transfotmation through 
         Scan-to-BIM, autmoation, and AI-powered enginering workflows. 
       </p>
 
@@ -128,9 +128,23 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0; font-size:1.05rem;">Data Collection for Buildings & Infrastructure</h3>
+      <h3 style="margin:0; font-size:1.05rem;">Data Collection</h3>
       <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
-        Planning and coordination of reality data collection for buildings, bridges, and roads, including LiDAR and photogrammetry, and ensuring data quality, coverage, and suitability.
+      Planning, coordinating, and collecting point clouds, imagery, and asset inventory data for buildings and infrastructure, ensuring data quality, completeness, and fitness for purpose.
+</p>
+    </div>
+
+    <div style="
+      padding:22px 24px;
+      background: rgba(255,255,255,0.03);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:10px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+    ">
+      <h3 style="margin:0; font-size:1.05rem;"> Data Processing & Analysis</h3>
+      <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
+        Autmatic processing and analyzing spatial data to extract geometric information and spatial relationships of built elements, supporting as-built BIM modelling and enabling downstream asset management workflows.
+
       </p>
     </div>
 
@@ -141,9 +155,9 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0; font-size:1.05rem;">Spatial Data Processing & Engineering Analysis</h3>
+      <h3 style="margin:0; font-size:1.05rem;">As-Built BIM</h3>
       <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
-        Processing, cleaning, and analysis of point clouds, images, and geospatial data to extract reliable geometric, spatial, and condition information that supports decision making and downstream workflows.
+        Development of automated as-built BIM workflows, structured according to project objectives, asset lifecycle needs, and OpenBIM standards (e.g., IFC).
       </p>
     </div>
 
@@ -154,29 +168,16 @@ show_posts: false
       border-radius:10px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     ">
-      <h3 style="margin:0; font-size:1.05rem;">As-Built BIM & Digital Asset Modelling</h3>
+      <h3 style="margin:0; font-size:1.05rem;">AI & Automation</h3>
       <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
-        Development of accurate as-built BIM models for buildings and infrastructure, structured according to project objectives, asset lifecycle needs, and OpenBIM standards (e.g., IFC).
-      </p>
-    </div>
-
-    <div style="
-      padding:22px 24px;
-      background: rgba(255,255,255,0.03);
-      border:1px solid rgba(255,255,255,0.08);
-      border-radius:10px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
-    ">
-      <h3 style="margin:0; font-size:1.05rem;">AI & Automation for Construction and Asset Management</h3>
-      <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
-        Design and implementation of AI-assisted and automated workflows to accelerate extract information from reality data, BIM modelling, and improve efficiency across the projects.
+Design and implementation of AI-assisted and automated workflows to enhance efficiency, consistency, and scalability across projects.
       </p>
     </div>
 
   </div>
 
   <!-- Summary sentence at the end -->
-  <p style="
+  <!p style="
     margin-top:32px;
     text-align:center;
     font-style:italic;
