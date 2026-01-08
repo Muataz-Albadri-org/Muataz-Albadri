@@ -158,7 +158,7 @@ show_posts: false
     ">
       <h3 style="margin:0; font-size:1.05rem;">As-Built BIM</h3>
       <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
-        Development of automated as-built BIM workflows, structured according to project objectives, asset lifecycle needs, and OpenBIM standards (e.g., IFC).
+        Development of automated as-built BIM generation workflows, structured according to project objectives, asset lifecycle needs, and OpenBIM standards (e.g., IFC).
       </p>
     </div>
 
@@ -171,7 +171,7 @@ show_posts: false
     ">
       <h3 style="margin:0; font-size:1.05rem;">AI & Automation</h3>
       <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
-Design and implementation of AI-assisted and automated Scan-to-BIM workflows to enhance efficiency and consistency across multidisciplinary projects.
+Design and implementation of AI-assisted Scan-to-BIM workflows to enhance efficiency and consistency across multidisciplinary projects.
       </p>
     </div>
 
