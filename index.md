@@ -111,7 +111,7 @@ show_posts: false
     margin-bottom:32px;
     text-align:center;
   ">
-    What I Do
+    Digital Solutions
   </h2>
 
   <div style="
@@ -144,7 +144,7 @@ show_posts: false
     ">
       <h3 style="margin:0; font-size:1.05rem;"> Data Processing & Analysis</h3>
       <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
-        Autmatic processing and analyzing spatial data to extract geometric information and spatial relationships of built elements, supporting as-built BIM and enabling downstream asset management workflows.
+        Automated processing and analysis of spatial data to extract geometric information and spatial relationships of built elements, supporting as-built BIM generation and enabling downstream asset management and operational workflows.
 
       </p>
     </div>
@@ -171,7 +171,7 @@ show_posts: false
     ">
       <h3 style="margin:0; font-size:1.05rem;">AI & Automation</h3>
       <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
-Design and implementation of AI-assisted and automated workflows to enhance efficiency, consistency, and scalability across projects.
+Design and implementation of AI-assisted and automated Scan-to-BIM workflows to enhance efficiency and consistency across multidisciplinary projects.
       </p>
     </div>
 
