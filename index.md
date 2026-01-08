@@ -68,7 +68,7 @@ show_posts: false
       ">
         I help engineering firms, contractors, and asset owners transform reality 
         data into digital models, driving digital transfotmation through 
-        Scan-to-BIM, autmoation, and AI-powered enginering workflows. 
+        Scan-to-BIM, autmoation, and AI-assisted workflows. 
       </p>
 
       <a href="{{ '/about/' | relative_url }}"
