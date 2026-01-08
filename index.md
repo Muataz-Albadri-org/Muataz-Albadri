@@ -111,7 +111,7 @@ show_posts: false
     margin-bottom:32px;
     text-align:center;
   ">
-    Professional Services
+    What I Do
   </h2>
 
   <div style="
@@ -122,6 +122,7 @@ show_posts: false
 
     <!-- Service cards (existing) -->
     <div style="
+      display:none;
       padding:22px 24px;
       background: rgba(255,255,255,0.03);
       border:1px solid rgba(255,255,255,0.08);
@@ -177,7 +178,8 @@ Design and implementation of AI-assisted and automated workflows to enhance effi
   </div>
 
   <!-- Summary sentence at the end -->
-  <!p style="
+  <p style="
+    display:none;
     margin-top:32px;
     text-align:center;
     font-style:italic;
