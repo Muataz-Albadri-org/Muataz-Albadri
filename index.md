@@ -66,6 +66,97 @@ title: ""
   </video>
 </section>
 
+
+<!-- ========================= PROJECTS ========================== -->
+<section style="margin-bottom:80px; padding:40px 32px; background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">
+<h2 style="text-align:center;">Selected Projects</h2>
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:28px;">
+
+<div style="padding:24px; background:rgba(255,255,255,0.03); border-radius:10px;">
+<h3 style="cursor:pointer;">Heritage Building Renovation</h3>
+<p style="color:#aaa;">London · 2025</p>
+<div class="proj">
+<ul>
+<li>AI-based semantic segmentation of point clouds</li>
+<li>Automated IFC-compliant BIM generation</li>
+<li>60% modeling time reduction</li>
+</ul>
+</div>
+</div>
+
+<div style="padding:24px; background:rgba(255,255,255,0.03); border-radius:10px;">
+<h3 style="cursor:pointer;">Urban Infrastructure Upgrade</h3>
+<p style="color:#aaa;">Berlin · 2024</p>
+<div class="proj">
+<ul>
+<li>LiDAR and GIS integration</li>
+<li>Automated utility mapping</li>
+<li>50% faster approvals</li>
+</ul>
+</div>
+</div>
+
+<div style="padding:24px; background:rgba(255,255,255,0.03); border-radius:10px;">
+<h3 style="cursor:pointer;">Commercial Office Complex</h3>
+<p style="color:#aaa;">Dubai · 2025</p>
+<div class="proj">
+<ul>
+<li>Revit + Navisworks automation</li>
+<li>OpenBIM coordination</li>
+<li>70% clash reduction</li>
+</ul>
+</div>
+</div>
+
+</div>
+</section>
+
+<script>
+document.querySelectorAll('.proj').forEach(e=>e.style.display='none');
+document.querySelectorAll('h3').forEach(h=>{
+  h.onclick=()=> {
+    const p=h.nextElementSibling.nextElementSibling;
+    p.style.display = p.style.display=='block' ? 'none':'block';
+  };
+});
+</script>
+
+
+
+<!-- ========================= TECH STACK ========================== -->
+<section style="margin:80px 0;">
+<div style="overflow:hidden;">
+<div style="display:flex; gap:60px; animation:scroll 25s linear infinite;">
+
+<img src="{{ '/assets/logos/python.svg' | relative_url }}" height="80">
+<img src="{{ '/assets/logos/revit.svg' | relative_url }}" height="80">
+<img src="{{ '/assets/logos/ifc.svg' | relative_url }}" height="80">
+<img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" height="80">
+<img src="{{ '/assets/logos/ai.svg' | relative_url }}" height="80">
+<img src="{{ '/assets/logos/autocad.svg' | relative_url }}" height="80">
+
+</div>
+</div>
+</section>
+
+<style>
+@keyframes scroll {
+  from { transform:translateX(0); }
+  to { transform:translateX(-50%); }
+}
+</style>
+
+<!-- ========================= CV ========================== -->
+<section style="text-align:center; margin:80px 0;">
+<a href="{{ '/assets/portfolio.pdf' | relative_url }}" target="_blank"
+style="padding:14px 32px; background:#2C3E50; color:white; border-radius:8px; text-decoration:none; font-size:16px;">
+Download CV
+</a>
+</section>
+
+
+
 <!-- ========================= CONTACT ========================== -->
 <section style="text-align:center;">
   <h2>Contact</h2>
