@@ -122,22 +122,40 @@ document.querySelectorAll('h3').forEach(h=>{
 });
 </script>
 
-
 <!-- ========================= TECH STACK ========================== -->
-<section style="margin:80px 0;">
-<div style="overflow:hidden;">
-<div style="display:flex; gap:48px; align-items:center; animation:scroll 30s linear infinite;">
-
-<img src="{{ '/assets/logos/python.svg' | relative_url }}" style="height:48px; width:auto; opacity:0.9;">
-<img src="{{ '/assets/logos/revit.svg' | relative_url }}" style="height:48px; width:auto; opacity:0.9;">
-<img src="{{ '/assets/logos/ifc.svg' | relative_url }}" style="height:48px; width:auto; opacity:0.9;">
-<img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" style="height:48px; width:auto; opacity:0.9;">
-<img src="{{ '/assets/logos/ai.svg' | relative_url }}" style="height:48px; width:auto; opacity:0.9;">
-<img src="{{ '/assets/logos/autocad.svg' | relative_url }}" style="height:48px; width:auto; opacity:0.9;">
-
-</div>
-</div>
+<section id="tech-stack" style="margin:80px 0;">
+  <div style="overflow:hidden; max-width:1100px; margin:0 auto;">
+    <div style="
+      display:flex; 
+      gap:48px; 
+      align-items:center; 
+      animation: scroll 30s linear infinite;
+      white-space:nowrap;
+    ">
+      <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+      <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Revit" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+      <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+      <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+      <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+      <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+      <!-- repeat logos here for continuous scroll -->
+    </div>
+  </div>
 </section>
+
+<!-- Inline keyframes for scroll animation -->
+<style>
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* adjust if logos repeated */
+}
+</style>
+
+
+<style>
+  img:hover { opacity:1; transform:scale(1.05); transition:0.3s; }
+</style>
+
 
 
 <style>
