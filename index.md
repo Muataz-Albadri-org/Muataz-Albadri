@@ -1,7 +1,11 @@
 ---
-layout: null
+layout: home
 title: ""
-show_posts: false
+show_title: false
+hide:
+  - title
+---
+
 ---
 <div style="
   max-width:1100px;
