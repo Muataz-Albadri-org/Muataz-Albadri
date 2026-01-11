@@ -1,692 +1,144 @@
 ---
-layout: home 
-title: "" 
+layout: home
+title: ""
 show_posts: false
 ---
 
----
-<div style="
-  max-width:1100px;
-  margin:0 auto;
-  padding:40px 20px;
-">
-
-  <!-- =========================
-     HERO
-========================== -->
-<section style="margin-bottom:60px;">
-
-  <div style="
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-    gap:20px;
-  ">
-
-    <!-- Avatar -->
+<section class="hero">
+  <div class="hero-image-wrapper">
     <img
       src="{{ '/assets/images/Muataz.jpg' | relative_url }}"
       alt="Muataz Albadri"
-      style="
-        width:200px;
-        height:200px;
-        border-radius:50%;
-        object-fit:cover;
-        border:3px solid #2C3E50;
-      "
-    >
-
-    <!-- Name & Title -->
-<div>
-  <h1 style="margin:0;">Muataz Albadri</h1>
-
-  <h3 style="
-    margin:6px 0 0;
-    font-weight:400;
-    color:#666;
-    line-height:1.35;
-  ">
-    Senior Civil Engineer | PhD Candidate | Scan-to-BIM Solutions
-  </h3>
-</div>
-
-
-
-    <!-- Description + Button (grouped for tight spacing) -->
-    <div style="
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      gap:6px;
-      max-width:760px;
-    ">
-
-      <p style="
-        margin:0px;
-        text-align:justify;
-        text-justify:inter-word;
-        hyphens:auto;
-      ">
-        I help engineering firms, contractors, and asset owners transform reality 
-        data into digital models, driving digital transfotmation through 
-        Scan-to-BIM, autmoation, and AI-assisted workflows. 
-      </p>
-
-      <a href="{{ '/about/' | relative_url }}"
-         style="
-           margin-top:20px;
-           padding:12px 28px;
-           font-size:15px;
-           font-weight:500;
-           text-decoration:none;
-           color:#ffffff;
-           background:#2C3E50;
-           border-radius:6px;
-           transition:background 0.3s ease, transform 0.2s ease;
-         "
-         onmouseover="this.style.background='#1f2d3a'; this.style.transform='translateY(-2px)'"
-         onmouseout="this.style.background='#2C3E50'; this.style.transform='translateY(0)'"
-      >
-        About Me
-      </a>
-
-    </div>
-
-  </div>
-</section>
-
-<!-- =========================
-     SERVICES
-========================== -->
-<section style="
-  margin-bottom:80px;
-  padding:40px 32px;
-  background: rgba(255,255,255,0.02);
-  border:1px solid rgba(255,255,255,0.08);
-  border-radius:12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-">
-
-  <h2 style="
-    margin-top:0;
-    margin-bottom:32px;
-    text-align:center;
-  ">
-    Digital Solutions
-  </h2>
-
-  <div style="
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap:28px;
-  ">
-
-    <!-- Service cards (existing) -->
-    <div style="
-      display:none;
-      padding:22px 24px;
-      background: rgba(255,255,255,0.03);
-      border:1px solid rgba(255,255,255,0.08);
-      border-radius:10px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
-    ">
-      <h3 style="margin:0; font-size:1.05rem;">Data Collection</h3>
-      <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
-      Planning, coordinating, and collecting point clouds, imagery, and asset inventory data for buildings and infrastructure, ensuring data quality, completeness, and fitness for purpose.
-</p>
-    </div>
-
-    <div style="
-      padding:22px 24px;
-      background: rgba(255,255,255,0.03);
-      border:1px solid rgba(255,255,255,0.08);
-      border-radius:10px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
-    ">
-      <h3 style="margin:0; font-size:1.05rem;"> Data Processing & Analysis</h3>
-      <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
-        Automated processing and analysis of spatial data to extract geometric information and spatial relationships of built elements, supporting as-built BIM generation and enabling downstream asset management and operational workflows.
-
-      </p>
-    </div>
-
-    <div style="
-      padding:22px 24px;
-      background: rgba(255,255,255,0.03);
-      border:1px solid rgba(255,255,255,0.08);
-      border-radius:10px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
-    ">
-      <h3 style="margin:0; font-size:1.05rem;">As-Built BIM</h3>
-      <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
-        Development of automated as-built BIM generation workflows, structured according to project objectives, asset lifecycle needs, and OpenBIM standards (e.g., IFC).
-      </p>
-    </div>
-
-    <div style="
-      padding:22px 24px;
-      background: rgba(255,255,255,0.03);
-      border:1px solid rgba(255,255,255,0.08);
-      border-radius:10px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
-    ">
-      <h3 style="margin:0; font-size:1.05rem;">AI & Automation</h3>
-      <p style="margin:10px 0 0; text-align:justify; hyphens:auto; line-height:1.5;">
-Design and implementation of AI-assisted Scan-to-BIM workflows to enhance efficiency and consistency across multidisciplinary projects.
-      </p>
-    </div>
-
+      class="hero-image"
+    />
   </div>
 
-  <!-- Summary sentence at the end -->
-  <p style="
-    display:none;
-    margin-top:32px;
-    text-align:center;
-    font-style:italic;
-    color:#aaa;
-    max-width:720px;
-    margin-left:auto;
-    margin-right:auto;
-  ">
-    Services are delivered as standalone tasks or as an integrated digital workflow, depending on project needs.
-  </p>
-
-</section>
-
-
-
-  <!-- =========================
-     TECHNICAL DEMO
-========================== -->
-<section style="
-  margin-bottom:80px;
-  padding:32px 24px;
-  background: rgba(255,255,255,0.02);
-  border:1px solid rgba(255,255,255,0.08);
-  border-radius:12px;
-  box-shadow: 0 10px 28px rgba(0,0,0,0.25);
-  text-align:center;
-">
-
-  <h2 style="margin-top:0; margin-bottom:24px;">Demo Real</h2>
-
-  <video
-    autoplay
-    muted
-    loop
-    playsinline
-    style="
-      width:100%;
-      max-width:900px;
-      border-radius:8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-      display:block;
-      margin:0 auto 20px auto;
-    "
-  >
-    <source src="assets/demo.mp4" type="video/mp4">
-  </video>
-
-  <p style="
-    max-width:900px;
-    margin:0 auto;
-    text-align:justify;
-    hyphens:auto;
-    line-height:1.5;
-    color:#ccc;
-  ">
-    Demonstration of Scan-to-BIM automation workflows, AI-based semantic segmentation,
-    and BIM scripting pipelines applied to real-world project data.
-  </p>
-
-</section>
-
-<!-- =========================
-     PROJECTS (Accordion)
-========================== -->
-<section style="
-  margin-bottom:80px;
-  padding:40px 32px;
-  background: rgba(255,255,255,0.02);
-  border:1px solid rgba(255,255,255,0.08);
-  border-radius:12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-">
-
-  <h2 style="margin-top:0; margin-bottom:36px; text-align:center;">Projects</h2>
-
-  <div style="
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap:28px;
-  ">
-
-    <!-- Project 1 -->
-    <div style="
-      padding:24px 28px;
-      background: rgba(255,255,255,0.03);
-      border:1px solid rgba(255,255,255,0.08);
-      border-radius:10px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
-    ">
-      <h3 style="margin:0 0 8px 0; font-size:1.1rem; cursor:pointer;">
-        Heritage Building Renovation
-      </h3>
-      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: London, UK | Timeline: Jan–Jun 2025</p>
-      <div class="project-details" style="
-        max-height:0;
-        overflow:hidden;
-        transition:max-height 0.5s ease, padding 0.5s ease;
-        padding:0 0;
-        color:#ccc;
-      ">
-        <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
-          <li><strong>Problem:</strong> Legacy building lacked accurate documentation; renovation planning risked errors.</li>
-          <li><strong>Solution:</strong> Collected point clouds and photogrammetry, automated AI segmentation, and generated as-built BIM models.</li>
-          <li><strong>Tools:</strong> Leica BLK360, Revit, Python scripts, OpenBIM workflows.</li>
-          <li><strong>Outcome:</strong> Modeling time reduced by 60%; LOD 350 BIM delivered; fully ready for facility management.</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Project 2 -->
-    <div style="
-      padding:24px 28px;
-      background: rgba(255,255,255,0.03);
-      border:1px solid rgba(255,255,255,0.08);
-      border-radius:10px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
-    ">
-      <h3 style="margin:0 0 8px 0; font-size:1.1rem; cursor:pointer;">
-        Urban Infrastructure Upgrade
-      </h3>
-      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: Berlin, Germany | Timeline: Mar–Sep 2024</p>
-      <div class="project-details" style="
-        max-height:0;
-        overflow:hidden;
-        transition:max-height 0.5s ease, padding 0.5s ease;
-        padding:0 0;
-        color:#ccc;
-      ">
-        <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
-          <li><strong>Problem:</strong> Existing utilities lacked proper digital documentation, delaying planning.</li>
-          <li><strong>Solution:</strong> Collected geospatial and LiDAR data, automated AI-based feature extraction, and developed BIM-integrated maps.</li>
-          <li><strong>Tools:</strong> Leica RTC360, AutoCAD, Revit, Python workflows.</li>
-          <li><strong>Outcome:</strong> 50% faster planning approvals; digital twin integrated with city GIS systems.</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Project 3 -->
-    <div style="
-      padding:24px 28px;
-      background: rgba(255,255,255,0.03);
-      border:1px solid rgba(255,255,255,0.08);
-      border-radius:10px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
-    ">
-      <h3 style="margin:0 0 8px 0; font-size:1.1rem; cursor:pointer;">
-        Commercial Office Complex
-      </h3>
-      <p style="margin:0 0 6px 0; font-style:italic; color:#aaa;">Location: Dubai, UAE | Timeline: Jul–Dec 2025</p>
-      <div class="project-details" style="
-        max-height:0;
-        overflow:hidden;
-        transition:max-height 0.5s ease, padding 0.5s ease;
-        padding:0 0;
-        color:#ccc;
-      ">
-        <ul style="margin:8px 0 0 16px; padding:0; list-style-type:disc;">
-          <li><strong>Problem:</strong> Complex lacked coordinated BIM models for multi-disciplinary design.</li>
-          <li><strong>Solution:</strong> Integrated point clouds with architectural, structural, and MEP designs; automated clash detection and as-built updates.</li>
-          <li><strong>Tools:</strong> Revit, Navisworks, Python, OpenBIM standards.</li>
-          <li><strong>Outcome:</strong> Reduced design conflicts by 70%; accelerated handover; fully BIM-compliant for facility management.</li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- More Projects Button -->
-  <div style="text-align:center; margin-top:36px;">
-    <a href="{{ '/Projects/' | relative_url }}"
-       style="
-         display:inline-block;
-         padding:12px 28px;
-         font-size:15px;
-         font-weight:500;
-         text-decoration:none;
-         color:#ffffff;
-         background:#2C3E50;
-         border-radius:6px;
-         transition:background 0.3s ease, transform 0.2s ease;
-       "
-       onmouseover="this.style.background='#1f2d3a'; this.style.transform='translateY(-2px)';"
-       onmouseout="this.style.background='#2C3E50'; this.style.transform='translateY(0)';"
-    >
-      More Projects
-    </a>
-  </div>
-
-</section>
-
-<!-- =========================
-     JS Accordion for Smooth Slide
-========================== -->
-<script>
-  document.querySelectorAll('h3').forEach(function(title){
-    title.addEventListener('click', function(){
-      const content = this.nextElementSibling.nextElementSibling; // target the .project-details div
-      if(content.style.maxHeight && content.style.maxHeight !== '0px'){
-        content.style.maxHeight = '0';
-        content.style.padding = '0 0';
-      } else {
-        content.style.maxHeight = content.scrollHeight + 'px';
-        content.style.padding = '8px 0';
-      }
-    });
-  });
-</script>
-
-
-<!-- =========================
-     JS for Accordion Expand
-========================== -->
-<script>
-  document.querySelectorAll('.project-details').forEach(function(el){
-    el.classList.add('accordion');
-  });
-
-  document.querySelectorAll('h3').forEach(function(title){
-    title.addEventListener('click', function(){
-      const content = this.nextElementSibling;
-      if(content.style.maxHeight && content.style.maxHeight !== '0px'){
-        content.style.maxHeight = '0';
-      } else {
-        content.style.maxHeight = content.scrollHeight + 'px';
-      }
-    });
-  });
-</script>
-
-  <!-- =========================
-     CV
-========================== -->
-<section style="
-  margin-bottom:60px;
-  display:flex;
-  justify-content:center;
-  text-align:center;
-">
-
-  <a
-    href="assets/portfolio.pdf"
-    target="_blank"
-    style="
-      padding: 14px 32px;
-      font-size: 16px;
-      font-weight: 500;
-      color: #ffffff;
-      background-color: #2C3E50;
-      border-radius: 8px;
-      text-decoration: none;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
-      transition: background-color 0.3s ease, transform 0.2s ease;
-    "
-    onmouseover="this.style.backgroundColor='#1f2d3a'; this.style.transform='translateY(-2px)'"
-    onmouseout="this.style.backgroundColor='#2C3E50'; this.style.transform='translateY(0)'"
-  >
-    Download Consultant Portfolio
-  </a>
-
-</section>
-
-
-
-<!-- =========================
-     TECHNOLOGY STACK
-========================== -->
-
-<style>
-/* -------------------------
-   Base container (dark)
--------------------------- */
-.logo-scroll-wrapper {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding: 5px 0;
-  background: transparent;
-  border-radius: 0;
-}
-
-/* Fade edges */
-.logo-scroll-wrapper::before,
-.logo-scroll-wrapper::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 80px;
-  height: 100%;
-  z-index: 2;
-  pointer-events: none;
-}
-
-.logo-scroll-wrapper::before {
-  left: 0;
-  background: transparent;
-}
-
-.logo-scroll-wrapper::after {
-  right: 0;
-  background: transparent;
-}
-
-/* -------------------------
-   Scrolling track
--------------------------- */
-.logo-scroll-track {
-  display: flex;
-  align-items: center;
-  gap: 48px;
-  width: max-content;
-  animation: logo-scroll 25s linear infinite;
-}
-
-/* Pause on hover */
-.logo-scroll-wrapper:hover .logo-scroll-track {
-  animation-play-state: paused;
-}
-
-/* -------------------------
-   Logo items
--------------------------- */
-.logo-item {
-  flex: 0 0 auto;
-  position: relative;
-}
-
-.logo-item img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: contain;
-  background: rgba(255,255,255,0.03);
-  border: none;
-  padding: 0;
-}
-
-.logo-item:hover img {
-  transform: scale(1.05);
-  filter: grayscale(0%);
-}
-
-/* -------------------------
-   Tooltip
--------------------------- */
-.logo-item::after {
-  content: attr(data-label);
-  position: absolute;
-  bottom: -36px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: transparent;
-  color: #e6e8eb;
-  padding: 0;
-  font-size: 12px;
-  border-radius: 0;
-  white-space: nowrap;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease;
-}
-
-.logo-item:hover::after {
-  opacity: 1;
-}
-
-/* -------------------------
-   Animation
--------------------------- */
-@keyframes logo-scroll {
-  from {
-    transform: translateX(-50%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-/* -------------------------
-   Mobile behavior
--------------------------- */
-@media (max-width: 768px) {
-  .logo-scroll-track {
-    animation-duration: 40s;
-    gap: 10px;
-  }
-
-  .logo-item img {
-    width: 150px;
-    height: 150px;
-  }
-}
-
-/* -------------------------
-   Accessibility: reduced motion
--------------------------- */
-@media (prefers-reduced-motion: reduce) {
-  .logo-scroll-track {
-    animation: none;
-    transform: translateX(0);
-  }
-}
-</style>
-
-<section style="margin:0">
-  <!-- <h2>Technology Stack</h2> -->
-
-  <div class="logo-scroll-wrapper" style="padding: 60px 0; min-height: 200px;">
-    <div class="logo-scroll-track">
-
-      <div class="logo-item" data-label="Laser Scanners">
-        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" alt="Laser Scanners">
-      </div>
-
-      <div class="logo-item" data-label="Python">
-        <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python">
-      </div>
-
-      <div class="logo-item" data-label="Figure">
-        <img src="{{ '/assets/logos/Figure 7.svg' | relative_url }}" alt="Figure">
-      </div>
-
-      <div class="logo-item" data-label="Artificial Intelligence">
-        <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI">
-      </div>
-
-      <div class="logo-item" data-label="Autodesk Revit">
-        <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Revit">
-      </div>
-
-      <div class="logo-item" data-label="AutoCAD">
-        <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD">
-      </div>
-
-      <div class="logo-item" data-label="BlenderBIM">
-        <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM">
-      </div>
-
-      <div class="logo-item" data-label="IFC / buildingSMART">
-        <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC">
-      </div>
-
-      <!-- Duplicate for seamless loop -->
-      <div class="logo-item" data-label="Laser Scanners">
-        <img src="{{ '/assets/logos/laser-scanner.svg' | relative_url }}" alt="Laser Scanners">
-      </div>
-
-      <div class="logo-item" data-label="Python">
-        <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python">
-      </div>
-
-      <div class="logo-item" data-label="Figure">
-        <img src="{{ '/assets/logos/Figure 7.svg' | relative_url }}" alt="Figure">
-      </div>
-
-      <div class="logo-item" data-label="Artificial Intelligence">
-        <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI">
-      </div>
-
-      <div class="logo-item" data-label="Autodesk Revit">
-        <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Revit">
-      </div>
-
-      <div class="logo-item" data-label="AutoCAD">
-        <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD">
-      </div>
-
-      <div class="logo-item" data-label="BlenderBIM">
-        <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM">
-      </div>
-
-      <div class="logo-item" data-label="IFC / buildingSMART">
-        <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC">
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-
-  <!-- =========================
-       CONTACT
-  ========================== -->
-  <section>
-    <h2>Contact</h2>
-
-    <p>Email: muatazs.abed@gmail.com</p>
+  <div class="hero-text">
+    <h1>Muataz Albadri</h1>
+    <h2>Senior Civil Engineer · PhD Candidate · Scan-to-BIM Consultant</h2>
 
     <p>
-      LinkedIn:
-      <a
-        href="https://www.linkedin.com/in/muataz-albadri-2290381a4/"
-        target="_blank"
-      >
-        linkedin.com/in/muataz-albadri
-      </a>
+      I help engineering firms, contractors, and asset owners transform reality
+      data into reliable digital models through Scan-to-BIM, automation, and
+      AI-assisted BIM workflows.
     </p>
-  </section>
 
-</div>
+    <a href="{{ '/about/' | relative_url }}" class="button">About Me</a>
+  </div>
+</section>
 
-<footer style="
-  text-align:center;
-  padding:20px 0;
-  color:#777;
-">
-  © {{ site.time | date: "%Y" }} Muataz Albadri · Scan-to-BIM &amp; AI Consulting
-</footer>
+<!-- =====================
+     SERVICES
+===================== -->
+<section>
+  <h2>Digital Solutions</h2>
+
+  <div class="services">
+    <div class="service">
+      <span>Data Processing & Analysis</span>
+      Automated processing of point clouds, imagery, and spatial data to extract
+      geometry and topology of built assets, enabling high-quality as-built BIM
+      and downstream asset workflows.
+    </div>
+
+    <div class="service">
+      <span>As-Built BIM</span>
+      Automated and semi-automated Scan-to-BIM pipelines structured according to
+      project goals, asset lifecycle needs, and OpenBIM standards (IFC).
+    </div>
+
+    <div class="service">
+      <span>AI & Automation</span>
+      Design and deployment of AI-assisted Scan-to-BIM workflows to increase
+      modeling speed, consistency, and traceability across disciplines.
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+     DEMO
+===================== -->
+<section class="demo">
+  <h2>Demo Reel</h2>
+
+  <video autoplay muted loop playsinline>
+    <source src="{{ '/assets/demo.mp4' | relative_url }}" type="video/mp4">
+  </video>
+
+  <p>
+    Demonstration of Scan-to-BIM automation, AI-based semantic segmentation,
+    and BIM scripting pipelines applied to real project data.
+  </p>
+</section>
+
+<!-- =====================
+     PROJECTS
+===================== -->
+<section>
+  <h2>Selected Projects</h2>
+
+  <div class="projects">
+    <div class="project">
+      <h3>Heritage Building Renovation</h3>
+      <p class="meta">London · Jan–Jun 2025</p>
+      <div class="project-details">
+        <ul>
+          <li>AI-driven segmentation of point clouds</li>
+          <li>LOD 350 as-built BIM</li>
+          <li>60% reduction in modeling time</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project">
+      <h3>Urban Infrastructure Upgrade</h3>
+      <p class="meta">Berlin · Mar–Sep 2024</p>
+      <div class="project-details">
+        <ul>
+          <li>LiDAR + GIS integration</li>
+          <li>Automated feature extraction</li>
+          <li>50% faster planning approvals</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project">
+      <h3>Commercial Office Complex</h3>
+      <p class="meta">Dubai · Jul–Dec 2025</p>
+      <div class="project-details">
+        <ul>
+          <li>Point cloud driven BIM coordination</li>
+          <li>Automated clash detection</li>
+          <li>70% reduction in design conflicts</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="center">
+    <a href="{{ '/projects/' | relative_url }}" class="button">More Projects</a>
+  </div>
+</section>
+
+<!-- =====================
+     CV
+===================== -->
+<section class="center">
+  <a href="{{ '/assets/portfolio.pdf' | relative_url }}" target="_blank" class="button">
+    Download Consultant Portfolio
+  </a>
+</section>
+
+<!-- =====================
+     CONTACT
+===================== -->
+<section>
+  <h2>Contact</h2>
+  <p>Email: muatazs.abed@gmail.com</p>
+  <p>
+    LinkedIn:
+    <a href="https://www.linkedin.com/in/muataz-albadri-2290381a4/" target="_blank">
+      linkedin.com/in/muataz-albadri
+    </a>
+  </p>
+</section>
