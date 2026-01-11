@@ -1,9 +1,7 @@
 ---
-title: ""
+layout: landing
 permalink: /
-layout: single
-header: false
-author_profile: false
+title: ""
 ---
 
 <section class="hero">
