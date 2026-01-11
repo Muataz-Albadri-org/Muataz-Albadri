@@ -139,6 +139,12 @@ document.querySelectorAll('h3').forEach(h=>{
       <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
       <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
       <!-- repeat logos here for continuous scroll -->
+      <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+      <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Revit" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+      <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+      <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+      <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+      <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
     </div>
   </div>
 </section>
