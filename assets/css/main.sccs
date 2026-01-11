@@ -2,5 +2,33 @@
 ---
 
 @import "minimal-mistakes";
-@import "custom";
 
+/* ======================================
+   Muataz Albadri Consulting Theme
+====================================== */
+
+$bg-main: #0B0D12;
+$bg-surface: #141821;
+$bg-soft: #1A1F2B;
+
+$text-main: #E6E8EB;
+$text-muted: #A0A4AB;
+
+$accent: #4C78A8;
+$accent-soft: #8FB3D9;
+$border: #2A2E38;
+
+body {
+  background: radial-gradient(circle at top right, #1E2A3A 0%, $bg-main 55%);
+  color: $text-main;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 14px 32px;
+  background: linear-gradient(135deg, $accent, #5A8BC0);
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 600;
+}
