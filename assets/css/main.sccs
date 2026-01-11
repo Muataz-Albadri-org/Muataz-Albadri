@@ -3,36 +3,7 @@
 
 @import "minimal-mistakes";
 
-/* ======================================
-   Muataz Albadri Consulting Theme
-====================================== */
-
-$bg-main: #0B0D12;
-$bg-surface: #141821;
-$bg-soft: #1A1F2B;
-
-$text-main: #E6E8EB;
-$text-muted: #A0A4AB;
-
-$accent: #4C78A8;
-$accent-soft: #8FB3D9;
-$border: #2A2E38;
-
-body {
-  background: radial-gradient(circle at top right, #1E2A3A 0%, $bg-main 55%);
-  color: $text-main;
-}
-
-/* Buttons */
-.button {
-  display: inline-block;
-  padding: 14px 32px;
-  background: linear-gradient(135deg, $accent, #5A8BC0);
-  color: #fff;
-  border-radius: 6px;
-  font-weight: 600;
-}
-
+/* your landing page styles */
 .hero {
   display: flex;
   flex-direction: column;
@@ -47,7 +18,7 @@ body {
   height: 240px;
   border-radius: 50%;
   overflow: hidden;
-  border: 3px solid $border;
+  border: 3px solid #4c78a8;
   box-shadow: 0 0 40px rgba(76,120,168,0.28);
 }
 
@@ -55,20 +26,4 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.hero-text h1 {
-  margin: 0;
-  font-size: 3rem;
-}
-
-.hero-text h2 {
-  margin: 10px 0 20px;
-  font-weight: 400;
-  color: $accent;
-}
-
-.hero-text p {
-  max-width: 720px;
-  color: $text-muted;
 }
