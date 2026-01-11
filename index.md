@@ -123,22 +123,22 @@ document.querySelectorAll('h3').forEach(h=>{
 </script>
 
 
-
 <!-- ========================= TECH STACK ========================== -->
 <section style="margin:80px 0;">
 <div style="overflow:hidden;">
-<div style="display:flex; gap:60px; animation:scroll 25s linear infinite;">
+<div style="display:flex; gap:48px; align-items:center; animation:scroll 30s linear infinite;">
 
-<img src="{{ '/assets/logos/python.svg' | relative_url }}" height="80">
-<img src="{{ '/assets/logos/revit.svg' | relative_url }}" height="80">
-<img src="{{ '/assets/logos/ifc.svg' | relative_url }}" height="80">
-<img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" height="80">
-<img src="{{ '/assets/logos/ai.svg' | relative_url }}" height="80">
-<img src="{{ '/assets/logos/autocad.svg' | relative_url }}" height="80">
+<img src="{{ '/assets/logos/python.svg' | relative_url }}" style="height:48px; width:auto; opacity:0.9;">
+<img src="{{ '/assets/logos/revit.svg' | relative_url }}" style="height:48px; width:auto; opacity:0.9;">
+<img src="{{ '/assets/logos/ifc.svg' | relative_url }}" style="height:48px; width:auto; opacity:0.9;">
+<img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" style="height:48px; width:auto; opacity:0.9;">
+<img src="{{ '/assets/logos/ai.svg' | relative_url }}" style="height:48px; width:auto; opacity:0.9;">
+<img src="{{ '/assets/logos/autocad.svg' | relative_url }}" style="height:48px; width:auto; opacity:0.9;">
 
 </div>
 </div>
 </section>
+
 
 <style>
 @keyframes scroll {
