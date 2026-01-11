@@ -1,9 +1,7 @@
 ---
 layout: home
 title: ""
-show_title: false
-hide:
-  - title
+show_posts: false
 ---
 
 ---
