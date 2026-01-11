@@ -32,3 +32,43 @@ body {
   border-radius: 6px;
   font-weight: 600;
 }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 80px 24px 120px;
+  gap: 28px;
+}
+
+.hero-image-wrapper {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid $border;
+  box-shadow: 0 0 40px rgba(76,120,168,0.28);
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.hero-text h2 {
+  margin: 10px 0 20px;
+  font-weight: 400;
+  color: $accent;
+}
+
+.hero-text p {
+  max-width: 720px;
+  color: $text-muted;
+}
