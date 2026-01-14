@@ -22,8 +22,7 @@ title: ""
 
     <div style="display:flex; flex-direction:column; align-items:center; gap:6px; max-width:760px;">
       <p style="margin:0; text-align:justify;">
-        I help engineering firms, contractors, and asset owners transform reality data into digital models,
-        driving digital transformation through Scan-to-BIM, automation, and AI-assisted workflows.
+        I deliver Scan-to-BIM solutions that transform reality capture data into reliable digital assets, bridging field conditions with intelligent construction through automated and AI-assisted workflows.
       </p>
 
       <a href="{{ '/about/' | relative_url }}"
