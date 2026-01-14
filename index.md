@@ -40,8 +40,8 @@ title: ""
   <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:28px;">
 
     <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
-      <h3>Data Processing & Analysis</h3>
-      <p>Automated processing of point clouds to extract geometry and spatial relationships for as-built BIM and asset management.</p>
+      <h3>Spatial Data Processing & Analysis</h3>
+      <p>Processing, cleaning, and analysis of point clouds and imagery to extract reliable geometric and condition information that supports modeling and decision-making.</p>
     </div>
 
     <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
@@ -51,7 +51,7 @@ title: ""
 
     <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
       <h3>AI & Automation</h3>
-      <p>AI-driven Scan-to-BIM workflows to increase speed, consistency, and scalability.</p>
+      <p>Design and implementation of AI-assisted and automated process that reduce manual effort, improve consistency, and scale Scan-to-BIM workflows.</p>
     </div>
 
   </div>
