@@ -37,12 +37,12 @@ title: ""
 
 <!-- ========================= SERVICES ========================== -->
 <section style="margin:100px 0 80px; padding:40px 32px; background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">
-  <h2 style="text-align:center; margin-top:50; margin-bottom:50px; ">Digital Solutions</h2>
+  <h2 style="text-align:center; margin-top:50; margin-bottom:50px;">Digital Solutions</h2>
 
   <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:28px;">
 
     <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
-      <h3>Spatial Data Processing & Analysis</h3>
+      <h3 style="text-align:center; margin-top:50; margin-bottom:50px;">Spatial Data Processing & Analysis</h3>
       <p>
         Automated processing and analysis of point clouds and imagery to extract accurate geometric,
         semantic, and spatial information supporting modeling and engineering decisions.
