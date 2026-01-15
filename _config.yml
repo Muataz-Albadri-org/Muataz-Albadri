@@ -1,144 +1,32 @@
-# =============================================================================
-# SITE SETTINGS
-# =============================================================================
-title: "Muataz Albadri"
-subtitle: "Scan-to-BIM & AI Automation"
-name: "Muataz Albadri"
+title: Muataz Albadri
 email: muatazs.abed@gmail.com
-description: >-
+description: >
   Scan-to-BIM & AI Automation Consultant helping engineering, construction,
   and asset owners transform reality data into reliable digital models.
 
-# Update these with your actual GitHub Pages URL
-url: "https://yourusername.github.io"  # Base URL (e.g., https://muataz-albadri.github.io)
-baseurl: ""  # Leave empty if site is at root, or "/repo-name" if in subfolder
-repository: "yourusername/yourusername.github.io"  # GitHub repo
-
-# =============================================================================
-# THEME SETTINGS
-# =============================================================================
-remote_theme: mmistakes/minimal-mistakes@4.24.0
-minimal_mistakes_skin: "dark"  # Options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
-
-# =============================================================================
-# SITE NAVIGATION
-# =============================================================================
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: dark
 search: true
-search_full_content: false
 
-# =============================================================================
-# BUILD SETTINGS
-# =============================================================================
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-
-# =============================================================================
-# PLUGINS
-# =============================================================================
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-include-cache
-  - jekyll-seo-tag
-  - jekyll-paginate
+jekyll-feed
+jekyll-sitemap
+jekyll-include-cache
 
-# =============================================================================
-# AUTHOR PROFILE (Sidebar)
-# =============================================================================
 author:
   name: "Muataz Albadri"
   avatar: "/assets/images/Muataz.jpg"
-  bio: "Senior Civil Engineer · PhD Candidate · Scan-to-BIM Specialist"
-  location: "Your Location"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:muatazs.abed@gmail.com"
-    - label: "LinkedIn"
+label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/muataz-albadri-2290381a4/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourusername"
-    # - label: "ORCID"
-    #   icon: "fab fa-fw fa-orcid"
-    #   url: "https://orcid.org/your-orcid-id"
 
-# =============================================================================
-# FOOTER
-# =============================================================================
-footer:
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/muataz-albadri-2290381a4/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourusername"
-
-# =============================================================================
-# READING FILES
-# =============================================================================
 include:
-  - _pages
+pages
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - README.md
-  - LICENSE
-
-# =============================================================================
-# DEFAULTS
-# =============================================================================
 defaults:
-  # _pages
-  - scope:
+scope:
       path: ""
-      type: pages
+      type: "pages"
     values:
-      layout: single
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
-      related: false
-
-  # _posts (if you add a blog later)
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-
-# =============================================================================
-# ANALYTICS (Optional)
-# =============================================================================
-# analytics:
-#   provider: "google-gtag"
-#   google:
-#     tracking_id: "G-XXXXXXXXXX"
-#     anonymize_ip: false
-
-# =============================================================================
-# SEO & SOCIAL
-# =============================================================================
-og_image: "/assets/images/Muataz.jpg"
-social:
-  type: "Person"
-  name: "Muataz Albadri"
-  links:
-    - "https://www.linkedin.com/in/muataz-albadri-2290381a4/"
-
-# =============================================================================
-# BREADCRUMBS
-# =============================================================================
-breadcrumbs: false
+      layout: "page"
