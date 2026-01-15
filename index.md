@@ -124,37 +124,84 @@ title: ""
 
 <!-- ========================= TECH STACK ========================== -->
 <section id="tech-stack" style="margin:80px 0;">
-  <h2 style="text-align:center; margin-bottom:20px;">Technology Stack</h2>
-  <p style="text-align:center; max-width:760px; margin:0 auto 40px; color:#aaa;">
-    A curated set of tools and technologies used to deliver scalable Scan-to-BIM,
-    OpenBIM, and AI-driven automation workflows across the asset lifecycle.
-  </p>
+  <h2 style="text-align:center; margin-bottom:32px;">Technology Stack</h2>
 
   <div style="overflow:hidden; max-width:1100px; margin:0 auto;">
     <div style="
-      display:flex; 
-      gap:48px; 
-      align-items:center; 
+      display:flex;
+      gap:48px;
+      align-items:center;
       animation: scroll 30s linear infinite;
       white-space:nowrap;
     ">
-      <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python – Automation & Data Processing" style="height:80px; width:auto; opacity:0.9;">
-      <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Autodesk Revit – BIM Authoring" style="height:80px; width:auto; opacity:0.9;">
-      <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC – OpenBIM Interoperability" style="height:80px; width:auto; opacity:0.9;">
-      <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM – Open-Source BIM" style="height:80px; width:auto; opacity:0.9;">
-      <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI & Machine Learning – Semantic Automation" style="height:80px; width:auto; opacity:0.9;">
-      <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD – Legacy Data Integration" style="height:80px; width:auto; opacity:0.9;">
+
+      <img src="{{ '/assets/logos/python.svg' | relative_url }}"
+           alt="Python – Automation and data processing"
+           style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+
+      <img src="{{ '/assets/logos/revit.svg' | relative_url }}"
+           alt="Autodesk Revit – BIM authoring"
+           style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+
+      <img src="{{ '/assets/logos/ifc.svg' | relative_url }}"
+           alt="IFC – OpenBIM interoperability"
+           style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+
+      <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}"
+           alt="BlenderBIM – Open-source BIM workflows"
+           style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+
+      <img src="{{ '/assets/logos/ai.svg' | relative_url }}"
+           alt="AI and machine learning for semantic automation"
+           style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+
+      <img src="{{ '/assets/logos/autocad.svg' | relative_url }}"
+           alt="AutoCAD – Legacy CAD integration"
+           style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
 
       <!-- repeated logos for continuous scroll -->
-      <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python – Automation & Data Processing" style="height:80px; width:auto; opacity:0.9;">
-      <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Autodesk Revit – BIM Authoring" style="height:80px; width:auto; opacity:0.9;">
-      <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC – OpenBIM Interoperability" style="height:80px; width:auto; opacity:0.9;">
-      <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM – Open-Source BIM" style="height:80px; width:auto; opacity:0.9;">
-      <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI & Machine Learning – Semantic Automation" style="height:80px; width:auto; opacity:0.9;">
-      <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD – Legacy Data Integration" style="height:80px; width:auto; opacity:0.9;">
+
+      <img src="{{ '/assets/logos/python.svg' | relative_url }}"
+           alt="Python – Automation and data processing"
+           style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+
+      <img src="{{ '/assets/logos/revit.svg' | relative_url }}"
+           alt="Autodesk Revit – BIM authoring"
+           style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+
+      <img src="{{ '/assets/logos/ifc.svg' | relative_url }}"
+           alt="IFC – OpenBIM interoperability"
+           style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+
+      <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}"
+           alt="BlenderBIM – Open-source BIM workflows"
+           style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+
+      <img src="{{ '/assets/logos/ai.svg' | relative_url }}"
+           alt="AI and machine learning for semantic automation"
+           style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+
+      <img src="{{ '/assets/logos/autocad.svg' | relative_url }}"
+           alt="AutoCAD – Legacy CAD integration"
+           style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
     </div>
   </div>
 </section>
+
+<!-- Inline keyframes for scroll animation -->
+<style>
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+</style>
+
 
 
 
