@@ -85,13 +85,33 @@ title: ""
   <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:28px;">
 
     <div style="padding:24px; background:rgba(255,255,255,0.03); border-radius:10px; transition:transform 0.3s ease;" class="project-card">
-      <h3 style="margin-top:0; margin-bottom:8px; cursor:pointer;">Heritage Building Renovation</h3>
-      <p style="color:#aaa; margin:0 0 16px 0; font-size:14px;">London · 2025</p>
-      <ul style="margin:0; padding-left:20px; line-height:1.8;">
-        <li>AI-based semantic segmentation of point clouds</li>
-        <li>Automated IFC-compliant as-built BIM generation</li>
-        <li>60% reduction in manual modeling time</li>
-      </ul>
+      <h3 style="margin-top:0; margin-bottom:8px;">
+  Residential Building Demolition
+</h3>
+
+<p style="color:#aaa; margin:0 0 16px 0; font-size:14px;">
+  Spain · 2025
+</p>
+
+<p style="margin:0 0 8px 0;">
+  <strong>Challenge:</strong><br>
+  Lack of accurate and up-to-date documentation for an existing residential building scheduled for demolition, requiring reliable digital data for planning and analysis.
+</p>
+
+<p style="margin:0 0 8px 0;">
+  <strong>Solution:</strong><br>
+  Implementation of a Scan-to-BIM workflow using AI-assisted semantic segmentation and automated as-built model generation.
+</p>
+
+<p style="margin:0 0 8px 0;">
+  <strong>Tools:</strong><br>
+  Point clouds, AI-based segmentation algorithms, BIM automation pipelines, IFC-compliant modeling workflows.
+</p>
+
+<p style="margin:0;">
+  <strong>Outcome:</strong><br>
+  Approximately 60% reduction in manual modeling time, with delivery of an IFC-ready as-built BIM model suitable for demolition planning and downstream use.
+</p>
     </div>
 
     <div style="padding:24px; background:rgba(255,255,255,0.03); border-radius:10px; transition:transform 0.3s ease;" class="project-card">
