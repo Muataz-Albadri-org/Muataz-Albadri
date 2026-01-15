@@ -21,7 +21,7 @@ title: ""
 
     <div style="display:flex; flex-direction:column; align-items:center; gap:6px; max-width:760px;">
       <p style="margin:0; text-align:justify; line-height:1.6;">
-        I design and deliver Scan-to-BIM solutions that transform your spatial data into reliable digital assets, bridging field conditions with intelligent construction through
+        I design and deliver Scan-to-BIM solutions that transform your spatial data into reliable digital assets through
         automated and AI-assisted workflows.
       </p>
 
