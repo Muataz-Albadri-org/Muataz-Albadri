@@ -1,7 +1,7 @@
 ---
-layout: page
-title: "About Me"
+title: About Me
 permalink: /about/
+layout: page
 ---
 
 <div style="max-width:900px; margin:0 auto; padding:40px 20px;">
