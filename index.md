@@ -36,7 +36,7 @@ title: ""
 
 
 <!-- ========================= SERVICES ========================== -->
-<section style="margin-bottom:80px; padding:40px 32px; background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">
+<section style="margin:100px 0 80px; padding:40px 32px; background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">
   <h2 style="text-align:center;">Digital Solutions</h2>
 
   <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:28px;">
@@ -69,7 +69,7 @@ title: ""
 </section>
 
 <!-- ========================= DEMO ========================== -->
-<section style="margin-bottom:80px; text-align:center;">
+<section style="margin:100px 0 80px; text-align:center;">
   <h2>Demo Reel</h2>
   <video autoplay muted loop playsinline style="width:100%; max-width:900px;">
     <source src="{{ '/assets/demo.mp4' | relative_url }}" type="video/mp4">
