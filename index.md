@@ -88,30 +88,49 @@ title: ""
       <h3 style="margin-top:0; margin-bottom:8px;">
   Residential Building Demolition
 </h3>
+<h3 style="margin-top:0; margin-bottom:8px;">
+  Residential Building Demolition
+</h3>
 
 <p style="color:#aaa; margin:0 0 16px 0; font-size:14px;">
   Spain · 2025
 </p>
 
-<p style="margin:0 0 8px 0;">
-  <strong>Challenge:</strong><br>
-  Lack of accurate and up-to-date documentation for an existing residential building scheduled for demolition, requiring reliable digital data for planning and analysis.
-</p>
+<details style="margin-bottom:8px;">
+  <summary style="cursor:pointer; font-weight:bold;">
+    Challenge
+  </summary>
+  <p style="margin:8px 0 0 0;">
+    Lack of accurate and up-to-date documentation for an existing residential building scheduled for demolition, requiring reliable digital data for planning and analysis.
+  </p>
+</details>
 
-<p style="margin:0 0 8px 0;">
-  <strong>Solution:</strong><br>
-  Implementation of a Scan-to-BIM workflow using AI-assisted semantic segmentation and automated as-built model generation.
-</p>
+<details style="margin-bottom:8px;">
+  <summary style="cursor:pointer; font-weight:bold;">
+    Solution
+  </summary>
+  <p style="margin:8px 0 0 0;">
+    Implementation of a Scan-to-BIM workflow using AI-assisted semantic segmentation and automated as-built model generation.
+  </p>
+</details>
 
-<p style="margin:0 0 8px 0;">
-  <strong>Tools:</strong><br>
-  Point clouds, AI-based segmentation algorithms, BIM automation pipelines, IFC-compliant modeling workflows.
-</p>
+<details style="margin-bottom:8px;">
+  <summary style="cursor:pointer; font-weight:bold;">
+    Tools
+  </summary>
+  <p style="margin:8px 0 0 0;">
+    Point clouds, AI-based segmentation algorithms, BIM automation pipelines, and IFC-compliant modeling workflows.
+  </p>
+</details>
 
-<p style="margin:0;">
-  <strong>Outcome:</strong><br>
-  Approximately 60% reduction in manual modeling time, with delivery of an IFC-ready as-built BIM model suitable for demolition planning and downstream use.
-</p>
+<details>
+  <summary style="cursor:pointer; font-weight:bold;">
+    Outcome
+  </summary>
+  <p style="margin:8px 0 0 0;">
+    Approximately 60% reduction in manual modeling time, with delivery of an IFC-ready as-built BIM model suitable for demolition planning and downstream use.
+  </p>
+</details>
     </div>
 
     <div style="padding:24px; background:rgba(255,255,255,0.03); border-radius:10px; transition:transform 0.3s ease;" class="project-card">
