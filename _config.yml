@@ -1,5 +1,6 @@
 title: Muataz Albadri
 email: muatazs.abed@gmail.com
+
 description: >
   Scan-to-BIM & AI Automation Consultant helping engineering, construction,
   and asset owners transform reality data into reliable digital models.
@@ -9,23 +10,23 @@ minimal_mistakes_skin: dark
 search: true
 
 plugins:
-jekyll-feed
-jekyll-sitemap
-jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-include-cache
 
 author:
   name: "Muataz Albadri"
   avatar: "/assets/images/Muataz.jpg"
   links:
-label: "LinkedIn"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/muataz-albadri-2290381a4/"
 
 include:
-pages
+  - pages
 
 defaults:
-scope:
+  - scope:
       path: ""
       type: "pages"
     values:
