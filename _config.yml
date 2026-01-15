@@ -23,7 +23,7 @@ author:
       url: "https://www.linkedin.com/in/muataz-albadri-2290381a4/"
 
 include:
-  - pages
+  - _pages
 
 defaults:
   - scope:
