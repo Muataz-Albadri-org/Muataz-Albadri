@@ -178,13 +178,49 @@ title: ""
     </div>
 
     <div style="padding:24px; background:rgba(255,255,255,0.03); border-radius:10px; transition:transform 0.3s ease;" class="project-card">
-      <h3 style="margin-top:0; margin-bottom:8px; cursor:pointer;">Commercial Office Complex</h3>
-      <p style="color:#aaa; margin:0 0 16px 0; font-size:14px;">Dubai · 2025</p>
-      <ul style="margin:0; padding-left:20px; line-height:1.8;">
-        <li>Revit and Navisworks automation workflows</li>
-        <li>OpenBIM-based multidisciplinary coordination</li>
-        <li>70% reduction in detected clashes</li>
-      </ul>
+      <h3 style="margin-top:0; margin-bottom:8px;">
+  Commercial Office Complex
+</h3>
+
+<p style="color:#aaa; margin:0 0 16px 0; font-size:14px;">
+  Dubai · 2025
+</p>
+
+<details style="margin-bottom:10px;">
+  <summary style="cursor:pointer; font-weight:bold;">
+    Challenge
+  </summary>
+  <p style="margin:8px 0 0 0; text-align:justify; line-height:1.6;">
+    Managing multidisciplinary coordination across architectural, structural, and MEP systems in a large commercial office complex, with a high risk of design clashes and coordination delays.
+  </p>
+</details>
+
+<details style="margin-bottom:10px;">
+  <summary style="cursor:pointer; font-weight:bold;">
+    Solution
+  </summary>
+  <p style="margin:8px 0 0 0; text-align:justify; line-height:1.6;">
+    Deployment of automated BIM workflows using Revit and Navisworks, combined with OpenBIM-based coordination to streamline clash detection and interdisciplinary collaboration.
+  </p>
+</details>
+
+<details style="margin-bottom:10px;">
+  <summary style="cursor:pointer; font-weight:bold;">
+    Tools
+  </summary>
+  <p style="margin:8px 0 0 0; text-align:justify; line-height:1.6;">
+    Autodesk Revit, Navisworks, OpenBIM standards (IFC), automated coordination scripts, and rule-based clash detection processes.
+  </p>
+</details>
+
+<details>
+  <summary style="cursor:pointer; font-weight:bold;">
+    Outcome
+  </summary>
+  <p style="margin:8px 0 0 0; text-align:justify; line-height:1.6;">
+    Approximately 70% reduction in detected clashes, resulting in smoother coordination workflows, fewer design revisions, and improved project delivery efficiency.
+  </p>
+</details>
     </div>
 
   </div>
