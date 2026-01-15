@@ -3,7 +3,6 @@ layout: landing
 permalink: /
 title: ""
 ---
-
 <div style="max-width:1100px; margin:0 auto; padding:40px 20px;">
 
 <!-- ========================= HERO ========================== -->
@@ -16,13 +15,15 @@ title: ""
     <div>
       <h1 style="margin:0;">Muataz Albadri</h1>
       <h3 style="margin:6px 0 0; font-weight:400; color:#666; line-height:1.35;">
-        Senior Civil Engineer | PhD Candidate | Scan-to-BIM Solutions
+        Senior Civil Engineer · PhD Candidate · Scan-to-BIM & Digital Construction
       </h3>
     </div>
 
     <div style="display:flex; flex-direction:column; align-items:center; gap:6px; max-width:760px;">
       <p style="margin:0; text-align:justify;">
-        I deliver Scan-to-BIM solutions that transform reality capture data into reliable digital assets, bridging field conditions with intelligent construction through automated and AI-assisted workflows.
+        I design and deliver Scan-to-BIM solutions that transform reality capture data into reliable,
+        interoperable digital assets, bridging field conditions with intelligent construction through
+        automated and AI-assisted workflows.
       </p>
 
       <a href="{{ '/about/' | relative_url }}"
@@ -33,25 +34,35 @@ title: ""
   </div>
 </section>
 
+
 <!-- ========================= SERVICES ========================== -->
 <section style="margin-bottom:80px; padding:40px 32px; background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">
   <h2 style="text-align:center;">Digital Solutions</h2>
 
   <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:28px;">
 
-    <div style="padding:0px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
+    <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
       <h3>Spatial Data Processing & Analysis</h3>
-      <p>Processing, cleaning, and analysis of point clouds and imagery to extract reliable geometric and condition information that supports modeling and decision-making.</p>
+      <p>
+        Automated processing and analysis of point clouds and imagery to extract accurate geometric,
+        semantic, and spatial information supporting modeling and engineering decisions.
+      </p>
     </div>
 
     <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
       <h3>As-Built BIM</h3>
-      <p>Automated BIM generation aligned with project objectives, lifecycle needs, and OpenBIM standards.</p>
+      <p>
+        Generation of as-built BIM models aligned with project objectives, asset lifecycle requirements,
+        and OpenBIM standards (e.g., IFC).
+      </p>
     </div>
 
     <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
       <h3>AI & Automation</h3>
-      <p>Design and implementation of AI-assisted and automated process that reduce manual effort, improve consistency, and scale Scan-to-BIM workflows.</p>
+      <p>
+        Design and implementation of AI-assisted and automated workflows to reduce manual effort,
+        improve consistency, and scale Scan-to-BIM delivery.
+      </p>
     </div>
 
   </div>
@@ -78,8 +89,8 @@ title: ""
 <div class="proj">
 <ul>
 <li>AI-based semantic segmentation of point clouds</li>
-<li>Automated IFC-compliant BIM generation</li>
-<li>60% modeling time reduction</li>
+<li>Automated IFC-compliant as-built BIM generation</li>
+<li>60% reduction in manual modeling time</li>
 </ul>
 </div>
 </div>
@@ -89,9 +100,9 @@ title: ""
 <p style="color:#aaa;">Berlin · 2024</p>
 <div class="proj">
 <ul>
-<li>LiDAR and GIS integration</li>
-<li>Automated utility mapping</li>
-<li>50% faster approvals</li>
+<li>LiDAR and GIS data integration</li>
+<li>Automated utility and asset mapping</li>
+<li>50% faster planning and approval cycles</li>
 </ul>
 </div>
 </div>
@@ -101,9 +112,9 @@ title: ""
 <p style="color:#aaa;">Dubai · 2025</p>
 <div class="proj">
 <ul>
-<li>Revit + Navisworks automation</li>
-<li>OpenBIM coordination</li>
-<li>70% clash reduction</li>
+<li>Revit and Navisworks automation workflows</li>
+<li>OpenBIM-based multidisciplinary coordination</li>
+<li>70% reduction in detected clashes</li>
 </ul>
 </div>
 </div>
@@ -111,18 +122,14 @@ title: ""
 </div>
 </section>
 
-<script>
-document.querySelectorAll('.proj').forEach(e=>e.style.display='none');
-document.querySelectorAll('h3').forEach(h=>{
-  h.onclick=()=> {
-    const p=h.nextElementSibling.nextElementSibling;
-    p.style.display = p.style.display=='block' ? 'none':'block';
-  };
-});
-</script>
-
 <!-- ========================= TECH STACK ========================== -->
 <section id="tech-stack" style="margin:80px 0;">
+  <h2 style="text-align:center; margin-bottom:20px;">Technology Stack</h2>
+  <p style="text-align:center; max-width:760px; margin:0 auto 40px; color:#aaa;">
+    A curated set of tools and technologies used to deliver scalable Scan-to-BIM,
+    OpenBIM, and AI-driven automation workflows across the asset lifecycle.
+  </p>
+
   <div style="overflow:hidden; max-width:1100px; margin:0 auto;">
     <div style="
       display:flex; 
@@ -131,44 +138,25 @@ document.querySelectorAll('h3').forEach(h=>{
       animation: scroll 30s linear infinite;
       white-space:nowrap;
     ">
-      <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
-      <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Revit" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
-      <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
-      <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
-      <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
-      <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
-      <!-- repeat logos here for continuous scroll -->
-      <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
-      <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Revit" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
-      <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
-      <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
-      <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
-      <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD" style="height:80px; width:auto; opacity:0.9; transition:transform 0.3s;">
+      <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python – Automation & Data Processing" style="height:80px; width:auto; opacity:0.9;">
+      <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Autodesk Revit – BIM Authoring" style="height:80px; width:auto; opacity:0.9;">
+      <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC – OpenBIM Interoperability" style="height:80px; width:auto; opacity:0.9;">
+      <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM – Open-Source BIM" style="height:80px; width:auto; opacity:0.9;">
+      <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI & Machine Learning – Semantic Automation" style="height:80px; width:auto; opacity:0.9;">
+      <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD – Legacy Data Integration" style="height:80px; width:auto; opacity:0.9;">
+
+      <!-- repeated logos for continuous scroll -->
+      <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python – Automation & Data Processing" style="height:80px; width:auto; opacity:0.9;">
+      <img src="{{ '/assets/logos/revit.svg' | relative_url }}" alt="Autodesk Revit – BIM Authoring" style="height:80px; width:auto; opacity:0.9;">
+      <img src="{{ '/assets/logos/ifc.svg' | relative_url }}" alt="IFC – OpenBIM Interoperability" style="height:80px; width:auto; opacity:0.9;">
+      <img src="{{ '/assets/logos/blenderbim.svg' | relative_url }}" alt="BlenderBIM – Open-Source BIM" style="height:80px; width:auto; opacity:0.9;">
+      <img src="{{ '/assets/logos/ai.svg' | relative_url }}" alt="AI & Machine Learning – Semantic Automation" style="height:80px; width:auto; opacity:0.9;">
+      <img src="{{ '/assets/logos/autocad.svg' | relative_url }}" alt="AutoCAD – Legacy Data Integration" style="height:80px; width:auto; opacity:0.9;">
     </div>
   </div>
 </section>
 
-<!-- Inline keyframes for scroll animation -->
-<style>
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); } /* adjust if logos repeated */
-}
-</style>
 
-
-<style>
-  img:hover { opacity:1; transform:scale(1.05); transition:0.3s; }
-</style>
-
-
-
-<style>
-@keyframes scroll {
-  from { transform:translateX(0); }
-  to { transform:translateX(-50%); }
-}
-</style>
 
 <!-- ========================= CV ========================== -->
 <section style="text-align:center; margin:80px 0;">
@@ -178,12 +166,10 @@ Download CV
 </a>
 </section>
 
-
-
 <!-- ========================= CONTACT ========================== -->
 <section style="text-align:center;">
   <h2>Contact</h2>
-  <p>Email: muatazs.abed@gmail.com</p>
+  <p>Email: muataz.albadri@gmail.com</p>
   <p>
     LinkedIn:
     <a href="https://www.linkedin.com/in/muataz-albadri-2290381a4/" target="_blank">
@@ -192,9 +178,6 @@ Download CV
   </p>
 </section>
 
-</div>
-
 <footer style="text-align:center; padding:20px 0; color:#777;">
   © {{ site.time | date: "%Y" }} Muataz Albadri · Scan-to-BIM & AI Consulting
 </footer>
-
