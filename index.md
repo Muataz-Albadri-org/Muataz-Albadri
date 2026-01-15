@@ -88,16 +88,6 @@ title: ""
       <h3 style="margin-top:0; margin-bottom:8px;">
   Residential Building Demolition
 </h3>
-<h3 style="margin-top:0; margin-bottom:8px;">
-  Residential Building Demolition
-</h3>
-
-<p style="color:#aaa; margin:0 0 16px 0; font-size:14px;">
-  Spain · 2025
-</p>
-<h3 style="margin-top:0; margin-bottom:8px;">
-  Residential Building Demolition
-</h3>
 
 <p style="color:#aaa; margin:0 0 16px 0; font-size:14px;">
   Spain · 2025
