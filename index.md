@@ -95,30 +95,37 @@ title: ""
 <p style="color:#aaa; margin:0 0 16px 0; font-size:14px;">
   Spain · 2025
 </p>
+<h3 style="margin-top:0; margin-bottom:8px;">
+  Residential Building Demolition
+</h3>
 
-<details style="margin-bottom:8px;">
+<p style="color:#aaa; margin:0 0 16px 0; font-size:14px;">
+  Spain · 2025
+</p>
+
+<details style="margin-bottom:10px;">
   <summary style="cursor:pointer; font-weight:bold;">
     Challenge
   </summary>
-  <p style="margin:8px 0 0 0;">
+  <p style="margin:8px 0 0 0; text-align:justify; line-height:1.6;">
     Lack of accurate and up-to-date documentation for an existing residential building scheduled for demolition, requiring reliable digital data for planning and analysis.
   </p>
 </details>
 
-<details style="margin-bottom:8px;">
+<details style="margin-bottom:10px;">
   <summary style="cursor:pointer; font-weight:bold;">
     Solution
   </summary>
-  <p style="margin:8px 0 0 0;">
+  <p style="margin:8px 0 0 0; text-align:justify; line-height:1.6;">
     Implementation of a Scan-to-BIM workflow using AI-assisted semantic segmentation and automated as-built model generation.
   </p>
 </details>
 
-<details style="margin-bottom:8px;">
+<details style="margin-bottom:10px;">
   <summary style="cursor:pointer; font-weight:bold;">
     Tools
   </summary>
-  <p style="margin:8px 0 0 0;">
+  <p style="margin:8px 0 0 0; text-align:justify; line-height:1.6;">
     Point clouds, AI-based segmentation algorithms, BIM automation pipelines, and IFC-compliant modeling workflows.
   </p>
 </details>
@@ -127,7 +134,7 @@ title: ""
   <summary style="cursor:pointer; font-weight:bold;">
     Outcome
   </summary>
-  <p style="margin:8px 0 0 0;">
+  <p style="margin:8px 0 0 0; text-align:justify; line-height:1.6;">
     Approximately 60% reduction in manual modeling time, with delivery of an IFC-ready as-built BIM model suitable for demolition planning and downstream use.
   </p>
 </details>
