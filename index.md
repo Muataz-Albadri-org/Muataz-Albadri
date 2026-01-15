@@ -37,7 +37,7 @@ title: ""
 
 <!-- ========================= SERVICES ========================== -->
 <section style="margin:100px 0 80px; padding:40px 32px; background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">
-  <h2 style="text-align:center; margin-top:0;">Digital Solutions</h2>
+  <h2 style="text-align:center; margin-top:50; margin-bottom:50px; ">Digital Solutions</h2>
 
   <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:28px;">
 
@@ -78,7 +78,7 @@ title: ""
 
 
 <!-- ========================= PROJECTS ========================== -->
-<section style="margin-bottom:80px; padding:40px 32px; background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">
+<section style="margin:100px 0 80px; padding:40px 32px; background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">
 <h2 style="text-align:center;">Selected Projects</h2>
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:28px;">
