@@ -131,13 +131,50 @@ title: ""
     </div>
 
     <div style="padding:24px; background:rgba(255,255,255,0.03); border-radius:10px; transition:transform 0.3s ease;" class="project-card">
-      <h3 style="margin-top:0; margin-bottom:8px; cursor:pointer;">Urban Infrastructure Upgrade</h3>
-      <p style="color:#aaa; margin:0 0 16px 0; font-size:14px;">Berlin · 2024</p>
-      <ul style="margin:0; padding-left:20px; line-height:1.8;">
-        <li>LiDAR and GIS data integration</li>
-        <li>Automated utility and asset mapping</li>
-        <li>50% faster planning and approval cycles</li>
-      </ul>
+      
+      <h3 style="margin-top:0; margin-bottom:8px;">
+  Urban Infrastructure Upgrade
+</h3>
+
+<p style="color:#aaa; margin:0 0 16px 0; font-size:14px;">
+  Berlin · 2024
+</p>
+
+<details style="margin-bottom:10px;">
+  <summary style="cursor:pointer; font-weight:bold;">
+    Challenge
+  </summary>
+  <p style="margin:8px 0 0 0; text-align:justify; line-height:1.6;">
+    Fragmented and outdated urban infrastructure data, making it difficult for planners and stakeholders to accurately assess existing conditions and coordinate upgrade works.
+  </p>
+</details>
+
+<details style="margin-bottom:10px;">
+  <summary style="cursor:pointer; font-weight:bold;">
+    Solution
+  </summary>
+  <p style="margin:8px 0 0 0; text-align:justify; line-height:1.6;">
+    Integration of LiDAR, photogrammetry, and GIS datasets into a unified digital environment to support automated asset mapping and informed decision-making.
+  </p>
+</details>
+
+<details style="margin-bottom:10px;">
+  <summary style="cursor:pointer; font-weight:bold;">
+    Tools
+  </summary>
+  <p style="margin:8px 0 0 0; text-align:justify; line-height:1.6;">
+    Mobile LiDAR systems, GIS platforms, spatial databases, and automated data processing workflows for infrastructure and utility mapping.
+  </p>
+</details>
+
+<details>
+  <summary style="cursor:pointer; font-weight:bold;">
+    Outcome
+  </summary>
+  <p style="margin:8px 0 0 0; text-align:justify; line-height:1.6;">
+    Up to 50% reduction in planning and approval cycle time through faster data availability, improved coordination, and more reliable digital infrastructure models.
+  </p>
+</details>
     </div>
 
     <div style="padding:24px; background:rgba(255,255,255,0.03); border-radius:10px; transition:transform 0.3s ease;" class="project-card">
