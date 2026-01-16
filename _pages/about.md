@@ -208,3 +208,82 @@ layout: page
 </section>
 
 </div>
+<style>
+/* ===================== GLOBAL MOBILE TUNING ===================== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #0b0d12;
+  color: #e5e7eb;
+}
+
+/* Improve text readability on small screens */
+p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* ===================== PROFILE SECTION ===================== */
+@media (max-width: 768px) {
+  section[style*="display:flex"] {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  section img {
+    width: 160px !important;
+    height: 160px !important;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+}
+
+/* ===================== CARDS & GRIDS ===================== */
+@media (max-width: 640px) {
+  div[style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  div[style*="background:#111827"] {
+    padding: 16px !important;
+  }
+}
+
+/* ===================== BUTTONS ===================== */
+@media (max-width: 640px) {
+  a {
+    display: block !important;
+    width: 100%;
+    max-width: 320px;
+    margin: 12px auto !important;
+    text-align: center;
+    font-size: 15px;
+    padding: 14px 0 !important;
+  }
+}
+
+/* ===================== SECTION SPACING ===================== */
+@media (max-width: 640px) {
+  section {
+    margin-bottom: 48px !important;
+  }
+}
+
+/* ===================== HEADINGS VISUAL BALANCE ===================== */
+h2 {
+  letter-spacing: 0.3px;
+}
+
+h4 {
+  font-size: 16px;
+}
+</style>
