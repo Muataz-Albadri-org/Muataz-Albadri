@@ -41,7 +41,7 @@ title: ""
 
     <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
       <h3 style="margin-top:0; margin-bottom:12px;">Spatial Data Processing & Analysis</h3>
-      <p style="margin:0; line-height:1.6;">
+      <p style="margin:0; line-height:1.6;text-align: justify">
         Automated processing and analysis of point clouds and imagery to extract accurate geometric,
         semantic, and spatial information supporting modeling and engineering decisions.
       </p>
