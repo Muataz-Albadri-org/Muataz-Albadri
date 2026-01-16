@@ -56,7 +56,7 @@ title: ""
 
     <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
       <h3 style="margin-top:0; margin-bottom:12px;">Quality Control</h3>
-      <p style="margin:0; line-height:1.6;">
+      <p style="margin:0; line-height:1.6; text-align: justify">
         Automated validation of geometric accuracy, data consistency, and standards compliance, with outputs delivered in interoperable formats for seamless integration across BIM, GIS, and asset management platforms.
       </p>
     </div>
