@@ -70,7 +70,7 @@ title: ""
   <h2 style="margin-bottom:30px;">Demo Reel</h2>
   <video autoplay muted loop playsinline 
     style="width:100%; max-width:900px; border-radius:12px; box-shadow:0 8px 30px rgba(0,0,0,0.3);">
-    <source src="{{ '/assets/demo.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/assets/20250926_181056.mp4 ' | relative_url }}" type="video/mp4">
   </video>
 </section>
 
