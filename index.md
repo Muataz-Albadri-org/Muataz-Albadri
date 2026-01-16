@@ -42,23 +42,22 @@ title: ""
     <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
       <h3 style="margin-top:0; margin-bottom:12px;">Spatial Data Processing & Analysis</h3>
       <p style="margin:0; line-height:1.6;text-align: justify">
-        Development of AI- and rule-based tools for processing and analysing point clouds to extract structured data, including geometric, semantic, and relationship information of built assets.
+        Development of AI- and rule-based tools to extract structured features from point clouds, including geometric, semantic, and relationship information of the building assets.
       </p>
     </div>
 
     <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
       <h3 style="margin-top:0; margin-bottom:12px;">As-Built BIM Generation</h3>
-      <p style="margin:0; line-height:1.6;">
-        Automated workflow for as-built BIM generation aligned with project objectives, asset management requirements,
+      <p style="margin:0; line-height:1.6; text-align: justify">
+        Automatic generation of as-built digital models aligned with project objectives, asset management requirements,
         and OpenBIM standards (e.g., IFC).
       </p>
     </div>
 
     <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
-      <h3 style="margin-top:0; margin-bottom:12px;">AI & Automation</h3>
+      <h3 style="margin-top:0; margin-bottom:12px;">Quality Control</h3>
       <p style="margin:0; line-height:1.6;">
-        Design and implementation of AI-assisted and automated workflows to reduce manual effort,
-        improve consistency, and scale Scan-to-BIM delivery.
+        Automated validation of geometric accuracy, data consistency, and standards compliance, with outputs delivered in interoperable formats for seamless integration across BIM, GIS, and asset management platforms.
       </p>
     </div>
 
