@@ -21,8 +21,7 @@ title: ""
 
     <div style="display:flex; flex-direction:column; align-items:center; gap:6px; max-width:760px;">
       <p style="margin:0; text-align:justify; line-height:1.6;">
-        I design and deliver Scan-to-BIM solutions that transform your spatial data into reliable digital assets through
-        automated and AI-assisted workflows.
+        I help teams transform unstructured data (e.g., Point Cloud) into reliable digital models through automated and AI-assisted workflows , minimizing guesswork and accelerating delivery.
       </p>
 
       <a href="{{ '/about/' | relative_url }}" class="btn-primary"
