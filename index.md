@@ -35,9 +35,7 @@ title: ""
 
 <!-- ========================= Demo ========================== -->
 <section style="margin:100px 0 80px; text-align:center;">
-  <h2 style="margin-bottom:30px;">
-  Raw Point Clouds ➜ IFC-Based Models
-</h2>
+  Raw Point Clouds → IFC-Based Models
   <video autoplay muted loop playsinline 
     style="width:100%; max-width:900px; border-radius:12px; box-shadow:0 8px 30px rgba(0,0,0,0.3);">
     <source src="{{ '/assets/20250926_181056.mp4 ' | relative_url }}" type="video/mp4">
