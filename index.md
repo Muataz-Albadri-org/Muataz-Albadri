@@ -42,15 +42,14 @@ title: ""
     <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
       <h3 style="margin-top:0; margin-bottom:12px;">Spatial Data Processing & Analysis</h3>
       <p style="margin:0; line-height:1.6;text-align: justify">
-        Automated processing and analysis of point clouds and imagery to extract accurate geometric,
-        semantic, and spatial information supporting modeling and engineering decisions.
+        Development of AI- and rule-based tools for processing and analysing point clouds to extract structured data, including geometric, semantic, and relationship information of built assets.
       </p>
     </div>
 
     <div style="padding:22px 24px; background:rgba(255,255,255,0.03); border-radius:10px;">
-      <h3 style="margin-top:0; margin-bottom:12px;">As-Built BIM</h3>
+      <h3 style="margin-top:0; margin-bottom:12px;">As-Built BIM Generation</h3>
       <p style="margin:0; line-height:1.6;">
-        Generation of as-built BIM models aligned with project objectives, asset lifecycle requirements,
+        Automated workflow for as-built BIM generation aligned with project objectives, asset management requirements,
         and OpenBIM standards (e.g., IFC).
       </p>
     </div>
