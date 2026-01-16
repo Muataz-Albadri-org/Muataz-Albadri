@@ -4,286 +4,284 @@ permalink: /about/
 layout: page
 ---
 
-<div style="
-  max-width:900px;
-  margin:0 auto;
-  padding:40px 20px;
-  background:#0b0d12;
-  color:#e5e7eb;
-">
+<div style="background:#0b0d12; color:#e5e7eb;">
 
-<!-- ========================= PROFILE HEADER ========================== -->
-<section style="
-  display:flex;
-  flex-wrap:wrap;
-  gap:40px;
-  align-items:center;
-  margin-bottom:60px;
-">
+<!-- ========================= HERO / PROFILE ========================== -->
+<section class="page-section">
+  <div class="section-inner profile">
 
-  <img src="{{ '/assets/images/Muataz.jpg' | relative_url }}"
-       alt="Muataz Albadri"
-       style="
-         width:220px;
-         height:220px;
-         border-radius:50%;
-         object-fit:cover;
-         border:3px solid #2563eb;
-         box-shadow:0 8px 28px rgba(0,0,0,0.5);
-         flex-shrink:0;
-         background:#111827;
-       ">
+    <img src="{{ '/assets/images/Muataz.jpg' | relative_url }}" alt="Muataz Albadri">
 
-  <div style="flex:1; min-width:280px;">
-    <h1 style="margin:0 0 8px 0; color:#f9fafb;">
-      Muataz Albadri
-    </h1>
-
-    <p style="color:#9ca3af; font-size:18px; margin:0 0 16px 0;">
+    <h1>Muataz Albadri</h1>
+    <p class="subtitle">
       Senior Civil Engineer · PhD Candidate · Scan-to-BIM Specialist
     </p>
 
-    <p style="line-height:1.7; text-align:justify; color:#d1d5db;">
+    <p class="intro">
       I help teams transform reality capture data into reliable digital assets.
       My work focuses on converting unstructured data such as point clouds into
       accurate, interoperable BIM models through automated and AI-assisted workflows.
     </p>
+
   </div>
 </section>
 
 <!-- ========================= BACKGROUND ========================== -->
-<section style="margin-bottom:60px;">
-  <h2 style="
-    border-bottom:2px solid #2563eb;
-    padding-bottom:10px;
-    margin-bottom:24px;
-    color:#f9fafb;
-  ">
-    Background
-  </h2>
+<section class="page-section">
+  <div class="section-inner">
 
-  <p style="line-height:1.8; text-align:justify; color:#d1d5db;">
-    With over <strong>10 years of experience</strong> in civil engineering and digital
-    construction, I have contributed to infrastructure and building projects across
-    Europe and the Middle East. My expertise lies in Scan-to-BIM, as-built modeling,
-    and reality-based digitalization for design, construction, and asset management.
-  </p>
+    <h2 class="section-title">Background</h2>
 
-  <p style="line-height:1.8; text-align:justify; color:#d1d5db; margin-top:16px;">
-    I am currently pursuing a <strong>PhD in Digital Construction</strong>, focusing on
-    AI-driven automation of Scan-to-BIM workflows. My research aims to reduce manual
-    modeling effort, improve data quality, and enable OpenBIM interoperability across
-    the project lifecycle.
-  </p>
+    <p>
+      With over <strong>10 years of experience</strong> in civil engineering and digital
+      construction, I have contributed to building and infrastructure projects across
+      Europe and the Middle East. My professional background combines on-site engineering
+      experience with advanced digital modeling and automation.
+    </p>
+
+    <p>
+      I specialize in Scan-to-BIM, as-built modeling, and reality-based digitalization
+      for design, construction, and asset management workflows.
+    </p>
+
+    <p>
+      I am currently pursuing a <strong>PhD in Digital Construction</strong>, focusing on
+      AI-driven automation of Scan-to-BIM pipelines. My research aims to reduce manual
+      modeling effort, improve data quality, and enable OpenBIM interoperability across
+      the project lifecycle.
+    </p>
+
+  </div>
 </section>
 
 <!-- ========================= EXPERTISE ========================== -->
-<section style="margin-bottom:60px;">
-  <h2 style="
-    border-bottom:2px solid #2563eb;
-    padding-bottom:10px;
-    margin-bottom:24px;
-    color:#f9fafb;
-  ">
-    Areas of Expertise
-  </h2>
+<section class="page-section">
+  <div class="section-inner">
 
-  <div style="
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
-    gap:20px;
-  ">
+    <h2 class="section-title">Areas of Expertise</h2>
 
-    <div style="
-      padding:20px;
-      background:#111827;
-      border-radius:10px;
-      border:1px solid #1f2937;
-    ">
-      <h4 style="margin:0 0 8px 0; color:#f3f4f6;">Scan-to-BIM</h4>
-      <p style="margin:0; color:#9ca3af; font-size:14px;">
-        Reality-based as-built modeling from point clouds and imagery.
-      </p>
+    <div class="expertise-grid">
+
+      <div class="card">
+        <h4>Scan-to-BIM</h4>
+        <p>
+          Reality-based as-built modeling from point clouds and imagery,
+          aligned with LOD and project requirements.
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>OpenBIM & IFC</h4>
+        <p>
+          Interoperable BIM delivery using open standards,
+          ensuring long-term usability and system integration.
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>AI & Automation</h4>
+        <p>
+          Semantic segmentation and automated processing of point clouds
+          using AI- and rule-based methods.
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Digital Construction</h4>
+        <p>
+          BIM coordination, data validation, and digital workflows
+          supporting construction and asset management.
+        </p>
+      </div>
+
     </div>
-
-    <div style="
-      padding:20px;
-      background:#111827;
-      border-radius:10px;
-      border:1px solid #1f2937;
-    ">
-      <h4 style="margin:0 0 8px 0; color:#f3f4f6;">OpenBIM & IFC</h4>
-      <p style="margin:0; color:#9ca3af; font-size:14px;">
-        Interoperable BIM delivery aligned with open standards.
-      </p>
-    </div>
-
-    <div style="
-      padding:20px;
-      background:#111827;
-      border-radius:10px;
-      border:1px solid #1f2937;
-    ">
-      <h4 style="margin:0 0 8px 0; color:#f3f4f6;">AI & Automation</h4>
-      <p style="margin:0; color:#9ca3af; font-size:14px;">
-        Semantic segmentation and automated processing of point clouds.
-      </p>
-    </div>
-
-    <div style="
-      padding:20px;
-      background:#111827;
-      border-radius:10px;
-      border:1px solid #1f2937;
-    ">
-      <h4 style="margin:0 0 8px 0; color:#f3f4f6;">Digital Construction</h4>
-      <p style="margin:0; color:#9ca3af; font-size:14px;">
-        BIM coordination, data validation, and digital project delivery.
-      </p>
-    </div>
-
   </div>
 </section>
 
 <!-- ========================= EDUCATION ========================== -->
-<section style="margin-bottom:60px;">
-  <h2 style="
-    border-bottom:2px solid #2563eb;
-    padding-bottom:10px;
-    margin-bottom:24px;
-    color:#f9fafb;
-  ">
-    Education
-  </h2>
+<section class="page-section">
+  <div class="section-inner">
 
-  <div style="margin-bottom:20px;">
-    <h4 style="margin:0; color:#f3f4f6;">
-      PhD in Digital Construction
-      <span style="color:#9ca3af; font-weight:400;">(In Progress)</span>
-    </h4>
-    <p style="margin:4px 0 0; color:#9ca3af;">
-      Research focus: AI-assisted Scan-to-BIM automation
-    </p>
-  </div>
+    <h2 class="section-title">Education</h2>
 
-  <div style="margin-bottom:20px;">
-    <h4 style="margin:0; color:#f3f4f6;">MSc in Civil Engineering</h4>
-  </div>
+    <div class="edu-item">
+      <h4>PhD in Digital Construction <span>(In Progress)</span></h4>
+      <p>
+        Research focus: AI-assisted Scan-to-BIM automation and semantic
+        segmentation of point clouds.
+      </p>
+    </div>
 
-  <div>
-    <h4 style="margin:0; color:#f3f4f6;">BSc in Civil Engineering</h4>
+    <div class="edu-item">
+      <h4>MSc in Civil Engineering</h4>
+    </div>
+
+    <div class="edu-item">
+      <h4>BSc in Civil Engineering</h4>
+    </div>
+
   </div>
 </section>
 
 <!-- ========================= CTA ========================== -->
-<section style="text-align:center; margin:60px 0 40px;">
-  <a href="{{ '/assets/portfolio.pdf' | relative_url }}" target="_blank"
-     style="
-       display:inline-block;
-       padding:14px 32px;
-       background:#2563eb;
-       color:white;
-       border-radius:8px;
-       text-decoration:none;
-       font-size:16px;
-       margin:8px;
-     ">
-    Download CV
-  </a>
+<section class="page-section cta">
+  <div class="section-inner">
 
-  <a href="{{ '/' | relative_url }}"
-     style="
-       display:inline-block;
-       padding:14px 32px;
-       background:transparent;
-       color:#93c5fd;
-       border:1px solid #2563eb;
-       border-radius:8px;
-       text-decoration:none;
-       font-size:16px;
-       margin:8px;
-     ">
-    ← Back to Home
-  </a>
+    <h2 class="section-title">Let’s Work Together</h2>
+
+    <div class="cta-buttons">
+      <a href="{{ '/assets/portfolio.pdf' | relative_url }}" target="_blank" class="btn primary">
+        Download CV
+      </a>
+
+      <a href="{{ '/' | relative_url }}" class="btn secondary">
+        ← Back to Home
+      </a>
+    </div>
+
+  </div>
 </section>
 
 </div>
+
+<!-- ========================= STYLES ========================== -->
 <style>
-/* ===================== GLOBAL MOBILE TUNING ===================== */
-* {
-  box-sizing: border-box;
+/* ===================== GLOBAL ===================== */
+.page-section {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  padding: 80px 20px;
+  border-bottom: 1px solid rgba(59,130,246,0.15);
 }
 
-body {
-  background: #0b0d12;
-  color: #e5e7eb;
+.section-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-/* Improve text readability on small screens */
+h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #9ca3af;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #3b82f6;
+  margin-top: 12px;
+}
+
 p {
-  font-size: 15px;
-  line-height: 1.7;
+  max-width: 720px;
+  line-height: 1.8;
+  margin-bottom: 16px;
 }
 
-/* ===================== PROFILE SECTION ===================== */
-@media (max-width: 768px) {
-  section[style*="display:flex"] {
-    flex-direction: column;
-    text-align: center;
-  }
+/* ===================== PROFILE ===================== */
+.profile {
+  text-align: center;
+}
 
-  section img {
-    width: 160px !important;
-    height: 160px !important;
-    margin: 0 auto;
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3b82f6;
+  margin-bottom: 24px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* ===================== EXPERTISE ===================== */
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: #111827;
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 4px solid #3b82f6;
+}
+
+.card h4 {
+  margin-bottom: 8px;
+}
+
+/* ===================== EDUCATION ===================== */
+.edu-item {
+  margin-bottom: 20px;
+}
+
+.edu-item span {
+  color: #9ca3af;
+  font-weight: normal;
+}
+
+/* ===================== CTA ===================== */
+.cta {
+  min-height: 60vh;
+  text-align: center;
+}
+
+.cta-buttons {
+  margin-top: 32px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 8px;
+}
+
+.btn.primary {
+  background: #3b82f6;
+  color: white;
+}
+
+.btn.secondary {
+  border: 2px solid #3b82f6;
+  color: #3b82f6;
+}
+
+/* ===================== MOBILE ===================== */
+@media (max-width: 768px) {
+  .page-section {
+    min-height: auto;
+    padding: 60px 16px;
   }
 
   h1 {
-    font-size: 26px;
+    font-size: 28px;
   }
 
-  h2 {
+  .section-title {
     font-size: 22px;
   }
-}
 
-/* ===================== CARDS & GRIDS ===================== */
-@media (max-width: 640px) {
-  div[style*="grid-template-columns"] {
-    grid-template-columns: 1fr !important;
+  .profile img {
+    width: 160px;
+    height: 160px;
   }
-
-  div[style*="background:#111827"] {
-    padding: 16px !important;
-  }
-}
-
-/* ===================== BUTTONS ===================== */
-@media (max-width: 640px) {
-  a {
-    display: block !important;
-    width: 100%;
-    max-width: 320px;
-    margin: 12px auto !important;
-    text-align: center;
-    font-size: 15px;
-    padding: 14px 0 !important;
-  }
-}
-
-/* ===================== SECTION SPACING ===================== */
-@media (max-width: 640px) {
-  section {
-    margin-bottom: 48px !important;
-  }
-}
-
-/* ===================== HEADINGS VISUAL BALANCE ===================== */
-h2 {
-  letter-spacing: 0.3px;
-}
-
-h4 {
-  font-size: 16px;
 }
 </style>
