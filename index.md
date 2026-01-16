@@ -33,6 +33,17 @@ title: ""
 </section>
 
 
+<!-- ========================= Demo ========================== -->
+<section style="margin:100px 0 80px; text-align:center;">
+  <h2 style="margin-bottom:30px;">  Raw Point Clouds into IFC-based model</h2>
+  <video autoplay muted loop playsinline 
+    style="width:100%; max-width:900px; border-radius:12px; box-shadow:0 8px 30px rgba(0,0,0,0.3);">
+    <source src="{{ '/assets/20250926_181056.mp4 ' | relative_url }}" type="video/mp4">
+  </video>
+</section>
+
+
+
 <!-- ========================= SERVICES ========================== -->
 <section style="margin:100px 0 80px; padding:40px 32px; background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">
   <h2 style="text-align:center; margin-top:0; margin-bottom:50px;">Digital Solutions</h2>
