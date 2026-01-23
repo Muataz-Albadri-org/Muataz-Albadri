@@ -21,7 +21,7 @@ title: ""
 
     <div style="display:flex; flex-direction:column; align-items:center; gap:6px; max-width:760px;">
       <p style="margin:0; text-align:justify; line-height:1.6;">
-        I transform unstructured data (e.g., Point Cloud) into reliable digital models through automated and AI-assisted workflows, reducing uncertainty and accelerating delivery.
+        I help teams to transform unstructured data (e.g., Point Cloud) into reliable digital models through automated and AI-assisted workflows, reducing uncertainty and accelerating delivery.
       </p>
 
       <a href="{{ '/about/' | relative_url }}" class="btn-primary"
